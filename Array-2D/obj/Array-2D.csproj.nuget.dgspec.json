@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Priyanshu\\source\\repos\\Array-2D\\Array-2D.csproj": {}
+    "E:\\1GITHUB\\C#\\Array-2D\\Array-2D.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Priyanshu\\source\\repos\\Array-2D\\Array-2D.csproj": {
+    "E:\\1GITHUB\\C#\\Array-2D\\Array-2D.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Priyanshu\\source\\repos\\Array-2D\\Array-2D.csproj",
+        "projectUniqueName": "E:\\1GITHUB\\C#\\Array-2D\\Array-2D.csproj",
         "projectName": "Array-2D",
-        "projectPath": "C:\\Users\\Priyanshu\\source\\repos\\Array-2D\\Array-2D.csproj",
+        "projectPath": "E:\\1GITHUB\\C#\\Array-2D\\Array-2D.csproj",
         "packagesPath": "C:\\Users\\Priyanshu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Priyanshu\\source\\repos\\Array-2D\\obj\\",
+        "outputPath": "E:\\1GITHUB\\C#\\Array-2D\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
