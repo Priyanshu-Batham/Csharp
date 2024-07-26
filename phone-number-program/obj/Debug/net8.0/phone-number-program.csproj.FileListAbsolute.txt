@@ -1,0 +1,14 @@
+F:\C#\phone-number-program\bin\Debug\net8.0\phone-number-program.exe
+F:\C#\phone-number-program\bin\Debug\net8.0\phone-number-program.deps.json
+F:\C#\phone-number-program\bin\Debug\net8.0\phone-number-program.runtimeconfig.json
+F:\C#\phone-number-program\bin\Debug\net8.0\phone-number-program.dll
+F:\C#\phone-number-program\bin\Debug\net8.0\phone-number-program.pdb
+F:\C#\phone-number-program\obj\Debug\net8.0\phone-number-program.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\phone-number-program\obj\Debug\net8.0\phone-number-program.AssemblyInfoInputs.cache
+F:\C#\phone-number-program\obj\Debug\net8.0\phone-number-program.AssemblyInfo.cs
+F:\C#\phone-number-program\obj\Debug\net8.0\phone-number-program.csproj.CoreCompileInputs.cache
+F:\C#\phone-number-program\obj\Debug\net8.0\phone-number-program.dll
+F:\C#\phone-number-program\obj\Debug\net8.0\refint\phone-number-program.dll
+F:\C#\phone-number-program\obj\Debug\net8.0\phone-number-program.pdb
+F:\C#\phone-number-program\obj\Debug\net8.0\phone-number-program.genruntimeconfig.cache
+F:\C#\phone-number-program\obj\Debug\net8.0\ref\phone-number-program.dll
