@@ -1,0 +1,14 @@
+C:\Users\Priyanshu\source\repos\Array-1D\bin\Debug\net8.0\Array-1D.exe
+C:\Users\Priyanshu\source\repos\Array-1D\bin\Debug\net8.0\Array-1D.deps.json
+C:\Users\Priyanshu\source\repos\Array-1D\bin\Debug\net8.0\Array-1D.runtimeconfig.json
+C:\Users\Priyanshu\source\repos\Array-1D\bin\Debug\net8.0\Array-1D.dll
+C:\Users\Priyanshu\source\repos\Array-1D\bin\Debug\net8.0\Array-1D.pdb
+C:\Users\Priyanshu\source\repos\Array-1D\obj\Debug\net8.0\Array-1D.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Priyanshu\source\repos\Array-1D\obj\Debug\net8.0\Array-1D.AssemblyInfoInputs.cache
+C:\Users\Priyanshu\source\repos\Array-1D\obj\Debug\net8.0\Array-1D.AssemblyInfo.cs
+C:\Users\Priyanshu\source\repos\Array-1D\obj\Debug\net8.0\Array-1D.csproj.CoreCompileInputs.cache
+C:\Users\Priyanshu\source\repos\Array-1D\obj\Debug\net8.0\Array-1D.dll
+C:\Users\Priyanshu\source\repos\Array-1D\obj\Debug\net8.0\refint\Array-1D.dll
+C:\Users\Priyanshu\source\repos\Array-1D\obj\Debug\net8.0\Array-1D.pdb
+C:\Users\Priyanshu\source\repos\Array-1D\obj\Debug\net8.0\Array-1D.genruntimeconfig.cache
+C:\Users\Priyanshu\source\repos\Array-1D\obj\Debug\net8.0\ref\Array-1D.dll

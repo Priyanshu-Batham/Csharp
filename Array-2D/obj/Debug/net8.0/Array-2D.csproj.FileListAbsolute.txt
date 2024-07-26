@@ -1,0 +1,14 @@
+C:\Users\Priyanshu\source\repos\Array-2D\bin\Debug\net8.0\Array-2D.exe
+C:\Users\Priyanshu\source\repos\Array-2D\bin\Debug\net8.0\Array-2D.deps.json
+C:\Users\Priyanshu\source\repos\Array-2D\bin\Debug\net8.0\Array-2D.runtimeconfig.json
+C:\Users\Priyanshu\source\repos\Array-2D\bin\Debug\net8.0\Array-2D.dll
+C:\Users\Priyanshu\source\repos\Array-2D\bin\Debug\net8.0\Array-2D.pdb
+C:\Users\Priyanshu\source\repos\Array-2D\obj\Debug\net8.0\Array-2D.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Priyanshu\source\repos\Array-2D\obj\Debug\net8.0\Array-2D.AssemblyInfoInputs.cache
+C:\Users\Priyanshu\source\repos\Array-2D\obj\Debug\net8.0\Array-2D.AssemblyInfo.cs
+C:\Users\Priyanshu\source\repos\Array-2D\obj\Debug\net8.0\Array-2D.csproj.CoreCompileInputs.cache
+C:\Users\Priyanshu\source\repos\Array-2D\obj\Debug\net8.0\Array-2D.dll
+C:\Users\Priyanshu\source\repos\Array-2D\obj\Debug\net8.0\refint\Array-2D.dll
+C:\Users\Priyanshu\source\repos\Array-2D\obj\Debug\net8.0\Array-2D.pdb
+C:\Users\Priyanshu\source\repos\Array-2D\obj\Debug\net8.0\Array-2D.genruntimeconfig.cache
+C:\Users\Priyanshu\source\repos\Array-2D\obj\Debug\net8.0\ref\Array-2D.dll
