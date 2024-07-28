@@ -1,0 +1,14 @@
+F:\C#\ZoneSales\bin\Debug\net8.0\ZoneSales.exe
+F:\C#\ZoneSales\bin\Debug\net8.0\ZoneSales.deps.json
+F:\C#\ZoneSales\bin\Debug\net8.0\ZoneSales.runtimeconfig.json
+F:\C#\ZoneSales\bin\Debug\net8.0\ZoneSales.dll
+F:\C#\ZoneSales\bin\Debug\net8.0\ZoneSales.pdb
+F:\C#\ZoneSales\obj\Debug\net8.0\ZoneSales.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\ZoneSales\obj\Debug\net8.0\ZoneSales.AssemblyInfoInputs.cache
+F:\C#\ZoneSales\obj\Debug\net8.0\ZoneSales.AssemblyInfo.cs
+F:\C#\ZoneSales\obj\Debug\net8.0\ZoneSales.csproj.CoreCompileInputs.cache
+F:\C#\ZoneSales\obj\Debug\net8.0\ZoneSales.dll
+F:\C#\ZoneSales\obj\Debug\net8.0\refint\ZoneSales.dll
+F:\C#\ZoneSales\obj\Debug\net8.0\ZoneSales.pdb
+F:\C#\ZoneSales\obj\Debug\net8.0\ZoneSales.genruntimeconfig.cache
+F:\C#\ZoneSales\obj\Debug\net8.0\ref\ZoneSales.dll

@@ -1,0 +1,21 @@
+C:\Users\NPGC LAB 4\source\repos\Bus\obj\Debug\net8.0\Bus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NPGC LAB 4\source\repos\Bus\obj\Debug\net8.0\Bus.AssemblyInfoInputs.cache
+C:\Users\NPGC LAB 4\source\repos\Bus\obj\Debug\net8.0\Bus.AssemblyInfo.cs
+C:\Users\NPGC LAB 4\source\repos\Bus\obj\Debug\net8.0\Bus.csproj.CoreCompileInputs.cache
+C:\Users\NPGC LAB 4\source\repos\Bus\obj\Debug\net8.0\refint\Bus.dll
+C:\Users\NPGC LAB 4\source\repos\Bus\obj\Debug\net8.0\Bus.pdb
+C:\Users\NPGC LAB 4\source\repos\Bus\obj\Debug\net8.0\Bus.dll
+F:\C#\Bus\bin\Debug\net8.0\Bus.exe
+F:\C#\Bus\bin\Debug\net8.0\Bus.deps.json
+F:\C#\Bus\bin\Debug\net8.0\Bus.runtimeconfig.json
+F:\C#\Bus\bin\Debug\net8.0\Bus.dll
+F:\C#\Bus\bin\Debug\net8.0\Bus.pdb
+F:\C#\Bus\obj\Debug\net8.0\Bus.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\Bus\obj\Debug\net8.0\Bus.AssemblyInfoInputs.cache
+F:\C#\Bus\obj\Debug\net8.0\Bus.AssemblyInfo.cs
+F:\C#\Bus\obj\Debug\net8.0\Bus.csproj.CoreCompileInputs.cache
+F:\C#\Bus\obj\Debug\net8.0\Bus.dll
+F:\C#\Bus\obj\Debug\net8.0\refint\Bus.dll
+F:\C#\Bus\obj\Debug\net8.0\Bus.pdb
+F:\C#\Bus\obj\Debug\net8.0\Bus.genruntimeconfig.cache
+F:\C#\Bus\obj\Debug\net8.0\ref\Bus.dll
