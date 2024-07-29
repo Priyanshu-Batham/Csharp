@@ -1,0 +1,14 @@
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\bin\Debug\net6.0\practiseQus2.exe
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\bin\Debug\net6.0\practiseQus2.deps.json
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\bin\Debug\net6.0\practiseQus2.runtimeconfig.json
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\bin\Debug\net6.0\practiseQus2.dll
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\bin\Debug\net6.0\practiseQus2.pdb
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\obj\Debug\net6.0\practiseQus2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\obj\Debug\net6.0\practiseQus2.AssemblyInfoInputs.cache
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\obj\Debug\net6.0\practiseQus2.AssemblyInfo.cs
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\obj\Debug\net6.0\practiseQus2.csproj.CoreCompileInputs.cache
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\obj\Debug\net6.0\practiseQus2.dll
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\obj\Debug\net6.0\refint\practiseQus2.dll
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\obj\Debug\net6.0\practiseQus2.pdb
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\obj\Debug\net6.0\practiseQus2.genruntimeconfig.cache
+C:\Users\NPGC LAB 4\source\repos\practiseQus2\practiseQus2\obj\Debug\net6.0\ref\practiseQus2.dll

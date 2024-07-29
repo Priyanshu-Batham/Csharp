@@ -1,0 +1,28 @@
+D:\Srajan\C#\Number2\Number2\bin\Debug\net8.0\Number2.exe
+D:\Srajan\C#\Number2\Number2\bin\Debug\net8.0\Number2.deps.json
+D:\Srajan\C#\Number2\Number2\bin\Debug\net8.0\Number2.runtimeconfig.json
+D:\Srajan\C#\Number2\Number2\bin\Debug\net8.0\Number2.dll
+D:\Srajan\C#\Number2\Number2\bin\Debug\net8.0\Number2.pdb
+D:\Srajan\C#\Number2\Number2\obj\Debug\net8.0\Number2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Srajan\C#\Number2\Number2\obj\Debug\net8.0\Number2.AssemblyInfoInputs.cache
+D:\Srajan\C#\Number2\Number2\obj\Debug\net8.0\Number2.AssemblyInfo.cs
+D:\Srajan\C#\Number2\Number2\obj\Debug\net8.0\Number2.csproj.CoreCompileInputs.cache
+D:\Srajan\C#\Number2\Number2\obj\Debug\net8.0\Number2.dll
+D:\Srajan\C#\Number2\Number2\obj\Debug\net8.0\refint\Number2.dll
+D:\Srajan\C#\Number2\Number2\obj\Debug\net8.0\Number2.pdb
+D:\Srajan\C#\Number2\Number2\obj\Debug\net8.0\Number2.genruntimeconfig.cache
+D:\Srajan\C#\Number2\Number2\obj\Debug\net8.0\ref\Number2.dll
+E:\C# SEM 5\Number2\Number2\bin\Debug\net8.0\Number2.exe
+E:\C# SEM 5\Number2\Number2\bin\Debug\net8.0\Number2.deps.json
+E:\C# SEM 5\Number2\Number2\bin\Debug\net8.0\Number2.runtimeconfig.json
+E:\C# SEM 5\Number2\Number2\bin\Debug\net8.0\Number2.dll
+E:\C# SEM 5\Number2\Number2\bin\Debug\net8.0\Number2.pdb
+E:\C# SEM 5\Number2\Number2\obj\Debug\net8.0\Number2.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# SEM 5\Number2\Number2\obj\Debug\net8.0\Number2.AssemblyInfoInputs.cache
+E:\C# SEM 5\Number2\Number2\obj\Debug\net8.0\Number2.AssemblyInfo.cs
+E:\C# SEM 5\Number2\Number2\obj\Debug\net8.0\Number2.csproj.CoreCompileInputs.cache
+E:\C# SEM 5\Number2\Number2\obj\Debug\net8.0\Number2.dll
+E:\C# SEM 5\Number2\Number2\obj\Debug\net8.0\refint\Number2.dll
+E:\C# SEM 5\Number2\Number2\obj\Debug\net8.0\Number2.pdb
+E:\C# SEM 5\Number2\Number2\obj\Debug\net8.0\Number2.genruntimeconfig.cache
+E:\C# SEM 5\Number2\Number2\obj\Debug\net8.0\ref\Number2.dll

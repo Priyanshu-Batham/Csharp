@@ -1,6 +1,6 @@
 ﻿class Bus
 {
-    bool[,] seats;
+    readonly bool[,] seats;
     int emptySeats;
     int totalSeats;
     int noOfPassangers; //also works as an index for matrix
@@ -43,17 +43,28 @@
             }
         }
         return true;
+    } 
+
+    bool removePassanger(int x, int y){
+        //converting normal people index to programmer index
+        x--;
+        y--;
+        if(x < 0 || x > this.seats.GetLength(0) || y < 0 || y > this.seats.GetLength(1)) return false;
+        if(this.seats[x, y] == false) return false;
+        this.seats[x, y] = false;
+        return true;
     }
 
     public static void Main()
     {
-        Bus bus = new Bus(7, 5);
+        Bus bus = new(7, 5);
         //Printing CLI interface
         while (true)
         {
             Console.WriteLine("1: View Bus");
             Console.WriteLine("2: Enter Passangers");
-            Console.WriteLine("3: Exit");
+            Console.WriteLine("3: Remove Passangers");
+            Console.WriteLine("4: Exit");
             Console.Write("Enter: ");
 
             int menuChoice = int.Parse(Console.ReadLine() !);
@@ -70,6 +81,16 @@
                 else Console.WriteLine("Passangers entered Successfully");
             }
             else if(menuChoice == 3)
+            {
+                Console.Write("Enter the Row Number: ");
+                int x = int.Parse(Console.ReadLine() !);
+                Console.Write("Enter the Column Number: ");
+                int y = int.Parse(Console.ReadLine() !);
+                bool result = bus.removePassanger(x, y);
+                if (!result) Console.WriteLine("Cannot Remove Passanger");
+                else Console.WriteLine("Passangers Removed Successfully");
+            }
+            else if(menuChoice == 4)
             {
                 Console.WriteLine("ThankYou");
                 break;

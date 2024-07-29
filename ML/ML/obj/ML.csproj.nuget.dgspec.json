@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NPGC LAB 4\\source\\repos\\ML\\ML\\ML.csproj": {}
+    "F:\\C#\\ML\\ML\\ML.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NPGC LAB 4\\source\\repos\\ML\\ML\\ML.csproj": {
+    "F:\\C#\\ML\\ML\\ML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NPGC LAB 4\\source\\repos\\ML\\ML\\ML.csproj",
+        "projectUniqueName": "F:\\C#\\ML\\ML\\ML.csproj",
         "projectName": "ML",
-        "projectPath": "C:\\Users\\NPGC LAB 4\\source\\repos\\ML\\ML\\ML.csproj",
+        "projectPath": "F:\\C#\\ML\\ML\\ML.csproj",
         "packagesPath": "C:\\Users\\NPGC LAB 4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NPGC LAB 4\\source\\repos\\ML\\ML\\obj\\",
+        "outputPath": "F:\\C#\\ML\\ML\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
