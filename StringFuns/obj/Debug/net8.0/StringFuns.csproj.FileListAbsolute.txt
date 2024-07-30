@@ -1,0 +1,15 @@
+E:\1GITHUB\C#\StringFuns\bin\Debug\net8.0\StringFuns.exe
+E:\1GITHUB\C#\StringFuns\bin\Debug\net8.0\StringFuns.deps.json
+E:\1GITHUB\C#\StringFuns\bin\Debug\net8.0\StringFuns.runtimeconfig.json
+E:\1GITHUB\C#\StringFuns\bin\Debug\net8.0\StringFuns.dll
+E:\1GITHUB\C#\StringFuns\bin\Debug\net8.0\StringFuns.pdb
+E:\1GITHUB\C#\StringFuns\obj\Debug\net8.0\StringFuns.GeneratedMSBuildEditorConfig.editorconfig
+E:\1GITHUB\C#\StringFuns\obj\Debug\net8.0\StringFuns.AssemblyInfoInputs.cache
+E:\1GITHUB\C#\StringFuns\obj\Debug\net8.0\StringFuns.AssemblyInfo.cs
+E:\1GITHUB\C#\StringFuns\obj\Debug\net8.0\StringFuns.csproj.CoreCompileInputs.cache
+E:\1GITHUB\C#\StringFuns\obj\Debug\net8.0\StringFuns.sourcelink.json
+E:\1GITHUB\C#\StringFuns\obj\Debug\net8.0\StringFuns.dll
+E:\1GITHUB\C#\StringFuns\obj\Debug\net8.0\refint\StringFuns.dll
+E:\1GITHUB\C#\StringFuns\obj\Debug\net8.0\StringFuns.pdb
+E:\1GITHUB\C#\StringFuns\obj\Debug\net8.0\StringFuns.genruntimeconfig.cache
+E:\1GITHUB\C#\StringFuns\obj\Debug\net8.0\ref\StringFuns.dll
