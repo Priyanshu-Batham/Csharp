@@ -5,7 +5,9 @@
         /*int[,] this syntax is for 2D arrays where all subarrays are of equal length
          *int[][] this syntax is for jagged arrays where subarrays' lengths are different
          */
-        print2DArray(take2DInput(2, 2));
+        findSaddlePoints(take2DInput(3, 3));
+        //print2DArray(take2DInput(2, 2));
+
     }
 
     //1) Take input a 2D array with specified dimensions
@@ -162,5 +164,126 @@
             flatty[flatty.Length - 1 - i] = temp;
         }
         return deflattenArray(flatty, arr.GetLength(1));
+    }
+
+    //11) Print Transpose
+    static void printTranspose(int[,] arr)
+    {
+        Console.WriteLine("\nTranspose of the matrix is:");
+        for (int i = 0; i < arr.GetLength(1); i++)
+        {
+            for (int j = 0; j < arr.GetLength(0); j++)
+            {
+                Console.Write(arr[j, i] + "\t");
+            }
+            Console.WriteLine();
+        }
+    }
+
+    //12) Print saddle point if any
+    static void findSaddlePoints(int[,] matrix)
+    {
+        int rows = matrix.GetLength(0);
+        int cols = matrix.GetLength(1);
+
+        for (int i = 0; i < rows; i++)
+        {
+            // Find the minimum element in the current row
+            int rowMin = matrix[i, 0];
+            int colIndex = 0;
+
+            for (int j = 1; j < cols; j++)
+            {
+                if (matrix[i, j] < rowMin)
+                {
+                    rowMin = matrix[i, j];
+                    colIndex = j;
+                }
+            }
+
+            // Check if the found minimum element is the maximum in its column
+            bool isSaddlePoint = true;
+
+            for (int k = 0; k < rows; k++)
+            {
+                if (matrix[k, colIndex] > rowMin)
+                {
+                    isSaddlePoint = false;
+                    break;
+                }
+            }
+
+            // If it is a saddle point, print it
+            if (isSaddlePoint)
+            {
+                Console.WriteLine($"Saddle point found at row {i + 1}, column {colIndex + 1}: {rowMin}");
+            }
+        }
+    }
+
+    //13) Matrix Multiplication
+    static int[,] MultiplyMatrices(int[,] a, int[,] b)
+    {
+        int rowsA = a.GetLength(0);
+        int colsA = a.GetLength(1);
+        int rowsB = b.GetLength(0);
+        int colsB = b.GetLength(1);
+
+        int[,] result = new int[rowsA, colsB];
+
+        if (colsA != rowsB)
+        {
+            Console.Write("Invalid dimensions");
+            return result;
+        }
+
+
+        for (int i = 0; i < rowsA; i++)
+        {
+            for (int j = 0; j < colsB; j++)
+            {
+                result[i, j] = 0;
+                for (int k = 0; k < colsA; k++)
+                {
+                    result[i, j] += a[i, k] * b[k, j];
+                }
+            }
+        }
+
+        return result;
+    }
+
+    //14) Spiral Matrix
+    static void PrintSpiralOrder(int[,] matrix)
+    {
+        int rows = matrix.GetLength(0);
+        int cols = matrix.GetLength(1);
+        int top = 0, bottom = rows - 1, left = 0, right = cols - 1;
+
+        while (top <= bottom && left <= right)
+        {
+            for (int i = left; i <= right; i++)
+                Console.Write(matrix[top, i] + " ");
+            top++;
+
+            for (int i = top; i <= bottom; i++)
+                Console.Write(matrix[i, right] + " ");
+            right--;
+
+            if (top <= bottom)
+            {
+                for (int i = right; i >= left; i--)
+                    Console.Write(matrix[bottom, i] + " ");
+                bottom--;
+            }
+
+            if (left <= right)
+            {
+                for (int i = bottom; i >= top; i--)
+                    Console.Write(matrix[i, left] + " ");
+                left++;
+            }
+        }
+        Console.WriteLine();
     }
 }
