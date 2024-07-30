@@ -1,0 +1,14 @@
+C:\Users\Priyanshu\source\repos\emailChecker\bin\Debug\net8.0\emailChecker.exe
+C:\Users\Priyanshu\source\repos\emailChecker\bin\Debug\net8.0\emailChecker.deps.json
+C:\Users\Priyanshu\source\repos\emailChecker\bin\Debug\net8.0\emailChecker.runtimeconfig.json
+C:\Users\Priyanshu\source\repos\emailChecker\bin\Debug\net8.0\emailChecker.dll
+C:\Users\Priyanshu\source\repos\emailChecker\bin\Debug\net8.0\emailChecker.pdb
+C:\Users\Priyanshu\source\repos\emailChecker\obj\Debug\net8.0\emailChecker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Priyanshu\source\repos\emailChecker\obj\Debug\net8.0\emailChecker.AssemblyInfoInputs.cache
+C:\Users\Priyanshu\source\repos\emailChecker\obj\Debug\net8.0\emailChecker.AssemblyInfo.cs
+C:\Users\Priyanshu\source\repos\emailChecker\obj\Debug\net8.0\emailChecker.csproj.CoreCompileInputs.cache
+C:\Users\Priyanshu\source\repos\emailChecker\obj\Debug\net8.0\emailChecker.dll
+C:\Users\Priyanshu\source\repos\emailChecker\obj\Debug\net8.0\refint\emailChecker.dll
+C:\Users\Priyanshu\source\repos\emailChecker\obj\Debug\net8.0\emailChecker.pdb
+C:\Users\Priyanshu\source\repos\emailChecker\obj\Debug\net8.0\emailChecker.genruntimeconfig.cache
+C:\Users\Priyanshu\source\repos\emailChecker\obj\Debug\net8.0\ref\emailChecker.dll
