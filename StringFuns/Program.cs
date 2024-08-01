@@ -1,7 +1,14 @@
-﻿class StringFuns
+﻿using System.Security.Cryptography.X509Certificates;
+
+class StringFuns
 {
     //This class contains reusable methods that takes strings and params and returns modified strings
     //I'll only make the Main class for testing the functions as its not needed here
+    public static void Main()
+    {
+        StringFuns app = new StringFuns();
+        ArrangeLetters.arrange("BaSIca");
+    }
 
     //1)
     string centerHeading(string str)
@@ -105,5 +112,129 @@
 
         //Equals function wasn't working here :(
         return charArray1.SequenceEqual(charArray2);
+    }
+
+    // <<<<<-------------------------------1/Aug/24: Making C progs from w3resources--------------------->>>>>>
+
+    //1) Write a C prog to sort a string array in asc order
+    string sortString(string str)
+    {
+        //removing white spaces
+        str = str.Replace(" ", "");
+
+        //converting string to a charArr
+        char[] charArr = str.ToCharArray();
+
+
+        //performing selection sort
+        for(int i = 0; i<charArr.Length - 1; i++)
+        {
+            for(int j = i+1; j < charArr.Length; j++)
+            {
+                if (charArr[i] > charArr[j])
+                {
+                    char temp = charArr[i];
+                    charArr[i] = charArr[j];
+                    charArr[j] = temp;
+                }
+            }
+        }
+
+        //converting char array back to a string
+        string newStr = "";
+        for(int i = 0; i < charArr.Length; i++)
+        {
+            newStr += charArr[i];
+        }
+
+        return newStr;
+    }
+
+
+    // <<<<<-------------------------------1/Aug/24: Homework Questions (4)--------------------->>>>>>
+    //1)
+    void capitalizeAndAdd2(string str)
+    {
+        string original = str;
+        str = str.ToUpper();
+        string newStr = "";
+        for (int i = 0; i < str.Length; i++)
+        {
+            char ch = str[i];
+            if(ch != ' ')
+            {
+                ch = (char)(ch + 2);
+                if(ch > 'Z')
+                {
+                    ch = (char)((ch % 91) + 'A');
+                }
+            };
+            newStr += ch;
+        }
+        Console.WriteLine($"Input: {original}");
+        Console.WriteLine($"Output: {newStr}");
+    }
+
+    //2)
+    void invertCase(string str)
+    {
+        char[] charArr = str.ToUpper().ToCharArray();
+        string newStr = "";
+        for (int i = 0; i < str.Length; i++)
+        {
+            if (charArr[i] != ' ' && charArr[i] == str[i])
+            {
+                charArr[i] = (char)(charArr[i] + 32);
+            }
+            newStr += charArr[i];
+        }
+        Console.WriteLine($"Input: {str}");
+        Console.WriteLine($"Output: {newStr}");
+    }
+    
+    //3)
+    void vowelModifier(string str)
+    {
+        char[] charArr = str.ToLower().ToCharArray();
+        string newStr = "";
+        for (int i = 0; i < str.Length; i++)
+        {
+            if (charArr[i] != ' ' && "aeiou".Contains(charArr[i]))
+            {
+                charArr[i] = (char)(charArr[i] + 1);
+            }
+            newStr += charArr[i];
+        }
+        Console.WriteLine($"Input: {str}");
+        Console.WriteLine($"Output: {newStr}");
+    }   
+}
+
+//4) Qus asked to make a complete seperate class
+class ArrangeLetters {
+    public static void arrange(string str)
+    {
+        str = str.ToUpper();
+        char[] charArr = str.ToCharArray();
+        string newStr = "";
+
+        //Selection sort for the win !!!
+        for (int i = 0; i < charArr.Length - 1; i++)
+        {
+            for (int j = i + 1; j < charArr.Length; j++)
+            {
+                if (charArr[i] > charArr[j])
+                {
+                    char temp = charArr[i];
+                    charArr[i] = charArr[j];
+                    charArr[j] = temp;
+                }
+            }
+            newStr += charArr[i];
+        }
+        newStr += charArr[charArr.Length - 1];
+
+        Console.WriteLine($"Input: {str}");
+        Console.WriteLine($"Output: {newStr}");
     }
 }
