@@ -27,3 +27,17 @@ E:\1GITHUB\C#\Array-2D\obj\Debug\net8.0\refint\Array-2D.dll
 E:\1GITHUB\C#\Array-2D\obj\Debug\net8.0\Array-2D.pdb
 E:\1GITHUB\C#\Array-2D\obj\Debug\net8.0\Array-2D.genruntimeconfig.cache
 E:\1GITHUB\C#\Array-2D\obj\Debug\net8.0\ref\Array-2D.dll
+F:\C#\Array-2D\bin\Debug\net8.0\Array-2D.exe
+F:\C#\Array-2D\bin\Debug\net8.0\Array-2D.deps.json
+F:\C#\Array-2D\bin\Debug\net8.0\Array-2D.runtimeconfig.json
+F:\C#\Array-2D\bin\Debug\net8.0\Array-2D.dll
+F:\C#\Array-2D\bin\Debug\net8.0\Array-2D.pdb
+F:\C#\Array-2D\obj\Debug\net8.0\Array-2D.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\Array-2D\obj\Debug\net8.0\Array-2D.AssemblyInfoInputs.cache
+F:\C#\Array-2D\obj\Debug\net8.0\Array-2D.AssemblyInfo.cs
+F:\C#\Array-2D\obj\Debug\net8.0\Array-2D.csproj.CoreCompileInputs.cache
+F:\C#\Array-2D\obj\Debug\net8.0\Array-2D.dll
+F:\C#\Array-2D\obj\Debug\net8.0\refint\Array-2D.dll
+F:\C#\Array-2D\obj\Debug\net8.0\Array-2D.pdb
+F:\C#\Array-2D\obj\Debug\net8.0\Array-2D.genruntimeconfig.cache
+F:\C#\Array-2D\obj\Debug\net8.0\ref\Array-2D.dll

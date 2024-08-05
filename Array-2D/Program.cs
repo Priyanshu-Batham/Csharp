@@ -5,8 +5,8 @@
         /*int[,] this syntax is for 2D arrays where all subarrays are of equal length
          *int[][] this syntax is for jagged arrays where subarrays' lengths are different
          */
-        findSaddlePoints(take2DInput(3, 3));
-        //print2DArray(take2DInput(2, 2));
+        //printTranspose(take2DInput(3, 2));
+        print2DArray(rotateBy90(take2DInput(3, 2)));
 
     }
 
@@ -285,5 +285,24 @@
             }
         }
         Console.WriteLine();
+    }
+
+    //15) Rotate matrix by 90 degrees
+    static int[,] rotateBy90(int[,] arr)
+    {
+        int rows = arr.GetLength(0);
+        int cols = arr.GetLength(1);
+
+        int[,] newArr = new int[cols, rows];
+
+        for(int i = 0; i<cols; i++)
+        {
+            for(int j = 0; j < rows; j++)
+            {
+                newArr[i, j] = arr[j, cols - 1 - i];
+            }
+        }
+
+        return newArr;
     }
 }
