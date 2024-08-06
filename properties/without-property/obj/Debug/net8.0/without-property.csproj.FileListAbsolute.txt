@@ -1,0 +1,14 @@
+F:\C#\properties\without-property\bin\Debug\net8.0\without-property.exe
+F:\C#\properties\without-property\bin\Debug\net8.0\without-property.deps.json
+F:\C#\properties\without-property\bin\Debug\net8.0\without-property.runtimeconfig.json
+F:\C#\properties\without-property\bin\Debug\net8.0\without-property.dll
+F:\C#\properties\without-property\bin\Debug\net8.0\without-property.pdb
+F:\C#\properties\without-property\obj\Debug\net8.0\without-property.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\properties\without-property\obj\Debug\net8.0\without-property.AssemblyInfoInputs.cache
+F:\C#\properties\without-property\obj\Debug\net8.0\without-property.AssemblyInfo.cs
+F:\C#\properties\without-property\obj\Debug\net8.0\without-property.csproj.CoreCompileInputs.cache
+F:\C#\properties\without-property\obj\Debug\net8.0\without-property.dll
+F:\C#\properties\without-property\obj\Debug\net8.0\refint\without-property.dll
+F:\C#\properties\without-property\obj\Debug\net8.0\without-property.pdb
+F:\C#\properties\without-property\obj\Debug\net8.0\without-property.genruntimeconfig.cache
+F:\C#\properties\without-property\obj\Debug\net8.0\ref\without-property.dll

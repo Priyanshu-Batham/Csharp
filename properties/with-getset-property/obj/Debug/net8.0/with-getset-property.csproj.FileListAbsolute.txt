@@ -1,0 +1,14 @@
+F:\C#\properties\with-getset-property\bin\Debug\net8.0\with-getset-property.exe
+F:\C#\properties\with-getset-property\bin\Debug\net8.0\with-getset-property.deps.json
+F:\C#\properties\with-getset-property\bin\Debug\net8.0\with-getset-property.runtimeconfig.json
+F:\C#\properties\with-getset-property\bin\Debug\net8.0\with-getset-property.dll
+F:\C#\properties\with-getset-property\bin\Debug\net8.0\with-getset-property.pdb
+F:\C#\properties\with-getset-property\obj\Debug\net8.0\with-getset-property.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\properties\with-getset-property\obj\Debug\net8.0\with-getset-property.AssemblyInfoInputs.cache
+F:\C#\properties\with-getset-property\obj\Debug\net8.0\with-getset-property.AssemblyInfo.cs
+F:\C#\properties\with-getset-property\obj\Debug\net8.0\with-getset-property.csproj.CoreCompileInputs.cache
+F:\C#\properties\with-getset-property\obj\Debug\net8.0\with-getset-property.dll
+F:\C#\properties\with-getset-property\obj\Debug\net8.0\refint\with-getset-property.dll
+F:\C#\properties\with-getset-property\obj\Debug\net8.0\with-getset-property.pdb
+F:\C#\properties\with-getset-property\obj\Debug\net8.0\with-getset-property.genruntimeconfig.cache
+F:\C#\properties\with-getset-property\obj\Debug\net8.0\ref\with-getset-property.dll
