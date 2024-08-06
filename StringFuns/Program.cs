@@ -7,7 +7,7 @@ class StringFuns
     public static void Main()
     {
         StringFuns app = new StringFuns();
-        ArrangeLetters.arrange("BaSIca");
+        Console.WriteLine(app.reverseWords("Hello, how are you?"));
     }
 
     //1)
@@ -114,6 +114,22 @@ class StringFuns
         return charArray1.SequenceEqual(charArray2);
     }
 
+    //11)
+    string reverseWords(string str)
+    {
+        string[] arr = str.Split(' ');
+        string newStr = "";
+
+        for (int i = 0; i < arr.Length; i++)
+        {
+            newStr += arr[arr.Length - 1 - i];
+            newStr += " ";
+        }
+
+        return newStr;
+    }
+    
+
     // <<<<<-------------------------------1/Aug/24: Making C progs from w3resources--------------------->>>>>>
 
     //1) Write a C prog to sort a string array in asc order
@@ -211,7 +227,8 @@ class StringFuns
 }
 
 //4) Qus asked to make a complete seperate class
-class ArrangeLetters {
+class ArrangeLetters
+{
     public static void arrange(string str)
     {
         str = str.ToUpper();
@@ -238,3 +255,4 @@ class ArrangeLetters {
         Console.WriteLine($"Output: {newStr}");
     }
 }
+    
