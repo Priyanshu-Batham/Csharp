@@ -3,6 +3,7 @@
 class Constructors
 {
     int a;
+    public static int _b;
 
     //Default constructor
     public Constructors()
@@ -35,6 +36,12 @@ class Constructors
     {
         Constructors obj = new Constructors(10, 20);
     }
+
+    //Static constructor
+    static Constructors()
+    {
+        _b = 10;
+    }
 }
 
 class Prog
@@ -45,5 +52,6 @@ class Prog
         Constructors app1 = new Constructors(20);
         Constructors app2 = new Constructors(app1);
         Constructors.privateConstructorInvoker();
+        Console.WriteLine(Constructors._b);
     }
 }
