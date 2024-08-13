@@ -128,7 +128,201 @@ class StringFuns
 
         return newStr;
     }
-    
+
+    //12) (Heist Codes)
+    public void findSmallLarge()
+    {
+        Console.WriteLine("Enter a string");
+        string str = Console.ReadLine()!;
+        str = str + " ";
+        int i, n = str.Length, count = 0, max = 0, min = 0;
+
+        for (i = 0; i < n; i++)
+        {
+            if (str[i] != ' ')
+                count++;
+            if (str[i] == ' ')
+            {
+                if (count > max)
+                {
+                    max = count;
+                    count = 0;
+                }
+            }
+        }
+        count = 0;
+        Console.WriteLine("Biggest word has " + max + " Letters");
+        min = max;
+        for (i = 0; i < n; i++)
+        {
+            if (str[i] != ' ')
+                count++;
+            if (str[i] == ' ')
+            {
+                if (count < min)
+                {
+                    min = count;
+                    count = 0;
+                }
+            }
+        }
+        Console.WriteLine("Smallest word has " + min + " Letters");
+    }
+
+    //13)
+    public void combineStrings()
+    {
+        Console.WriteLine("Enter string 1");
+        string str1 = Console.ReadLine()!;
+        Console.WriteLine("Enter string 2");
+        string str2 = Console.ReadLine()!;
+        string str3 = "";
+        str2 = " " + str2;
+        char ch = ' ';
+        int i, n1 = str1.Length, n2 = str2.Length, n3 = n1 + n2;
+        for (i = 0; i < n3; i++)
+        {
+            if (i < n1)
+            {
+                ch = str1[i];
+                str3 += ch;
+            }
+            else
+            {
+                ch = str2[i % n2];
+                str3 += ch;
+            }
+        }
+        Console.WriteLine("Combind String: " + str3);
+    }
+
+    //14)
+    public void checkSub()
+    {
+        Console.WriteLine("Enter a string");
+        string str = Console.ReadLine()!;
+        Console.WriteLine("Enter substring you want to check");
+        string substr = Console.ReadLine()!;
+
+        int i, n1 = str.Length, n2 = substr.Length, count = 0, m = 0;
+        char ch = substr[0];
+        //bool flag = true;
+
+        for (i = 0; i < n1; i++)
+        {
+            if (str[i] == ch)
+            {
+                m = i;
+                break;
+            }
+        }
+        for (i = m; i <= n1; i++)
+        {
+            if (str[i] == substr[count])
+            {
+                count++;
+            }
+            if (count == n2)
+            {
+                break;
+            }
+        }
+        if (count == n2)
+            Console.WriteLine("String contains inputted Substring");
+        else
+            Console.WriteLine("String does NOT contain the substring");
+    }
+
+    //15)
+    public void extractSub()
+    {
+        Console.WriteLine("Enter a string");
+        string str = Console.ReadLine()!;
+        int n = str.Length, i, m1 = 0, m2 = 0;
+        Console.WriteLine("Enter starting index");
+        m1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter ending index");
+        m2 = Convert.ToInt32(Console.ReadLine());
+
+        if (m1 < n && m2 < n && m1 < m2)
+        {
+            for (i = m1; i < m2; i++)
+            {
+                Console.Write(str[i]);
+            }
+            Console.WriteLine();
+        }
+        else
+        {
+            Console.WriteLine("Please give proper inputs");
+        }
+
+    }
+
+    //16)
+    public void countFreq()
+    {
+        int[] ch_freq = new int[128];
+        Console.WriteLine("Enter a string");
+        string str = Console.ReadLine()!;
+        int n = str.Length;
+
+        for (int i = 0; i < n; i++)
+        {
+            if (str[i] != ' ')
+            {
+                int ascii = str[i];
+                ch_freq[ascii]++;
+            }
+        }
+
+        int max = 0;
+        char maxChar = ' ';
+        for (int i = 0; i < 128; i++)
+        {
+            if (ch_freq[i] > max)
+            {
+                max = ch_freq[i];
+                maxChar = (char)i;
+            }
+        }
+
+        Console.WriteLine("Character: " + maxChar);
+        Console.WriteLine("Frequency: " + max);
+    }
+
+    //17)
+    public void countEverything()
+    {
+        Console.WriteLine("Enter a String");
+        string str = Console.ReadLine() ?? string.Empty; // Handle null input
+        int alphabet = 0, number = 0, sp_char = 0;
+
+        for (int i = 0; i < str.Length; i++)
+        {
+            char ch = str[i];
+            int ascii = ch;
+
+            if ((ascii >= 65 && ascii <= 90) || (ascii >= 97 && ascii <= 122))
+            {
+                alphabet++;
+            }
+            else if (ascii >= 48 && ascii <= 57)
+            {
+                number++;
+            }
+            else
+            {
+                sp_char++;
+            }
+        }
+
+        Console.WriteLine("Number of Alphabets: " + alphabet);
+        Console.WriteLine("Number of Numbers: " + number);
+        Console.WriteLine("Number of Special Characters: " + sp_char);
+    }
+
+
 
     // <<<<<-------------------------------1/Aug/24: Making C progs from w3resources--------------------->>>>>>
 

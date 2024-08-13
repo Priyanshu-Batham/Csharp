@@ -1,7 +1,7 @@
 ﻿class ArrayOneDimension {
     public static void Main()
     {
-        printArr(rotateBySteps(takeInput(4), 2));
+        printArr(selectionSort(takeInput(4)));
     }
 
     //1) takes input and returns an array
@@ -145,5 +145,150 @@
         }
 
         return rotatedArray;
+    }
+
+    //11)
+    static int[] squareMatrix(int[] arr)
+    {
+        for(int i = 0; i<arr.Length; i++)
+        {
+            arr[i] *= arr[i];
+        }
+        return arr;
+    }
+
+    //12)
+    static bool isEvenArr(int[] arr)
+    {
+        foreach(int num in arr)
+        {
+            if(num % 2 != 0) return false;
+        }
+        return true;
+    }
+
+    //13)
+    static bool isOddArr(int[] arr)
+    {
+        foreach(int num in arr)
+        {
+            if(num % 2 == 0) return false;
+        }
+        return true;
+    }
+
+    //14)
+    static bool containsZero(int[] arr)
+    {
+        foreach(int num in arr)
+        {
+            if (num == 0) return true;
+        }
+        return false;
+    }
+
+    //15) Selection sort
+    static int[] selectionSort(int[] arr)
+    {
+        for (int i = 0; i < arr.Length -1; i++)
+        {
+            for(int j = i+1; j<arr.Length; j++)
+            {
+                if (arr[i] > arr[j])
+                {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        return arr;
+    }
+
+    //16) Bubble sort
+    static int[] bubbleSort(int[] arr)
+    {
+        for (int i = 0; i < arr.Length - 1; i++)
+        {
+            for (int j = 0; j < arr.Length - 1 - i; j++)
+            {
+                if (arr[j] > arr[j+1])
+                {
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+        return arr;
+    }
+
+    //17)
+    static int oddMinusEvenIndex(int[] arr)
+    {
+        int odd = 0, even = 0;
+        for(int i = 0; i<arr.Length; i++)
+        {
+            if(i % 2 == 0)
+            {
+                even += arr[i];
+            }
+            else
+            {
+                odd += arr[i];  
+            }
+        }
+
+        return odd - even;
+    }
+
+    //18)
+    static int oddMinusEvenValues(int[] arr)
+    {
+        int odd = 0, even = 0;
+        foreach(int num in arr)
+        {
+            if(num  % 2 == 0)
+            {
+                even += arr[num];
+            }
+            else
+            {
+                odd += arr[num];
+            }
+        }
+        return odd - even;
+    }
+
+    //19)
+    static int[] negativesToZero(int[] arr)
+    {
+        for(int i = 0; i < arr.Length; i++)
+        {
+            if(arr[i] < 0)
+            {
+                arr[i] = 0;
+            }
+        }
+        return arr;
+    }
+
+    //20)
+    int balancedIndex(int[] arr)
+    {
+        int leftSum = 0, rightSum = 0;
+        int i = 0, j = arr.Length - 1;
+        while(i < j)
+        {
+            if (leftSum <= rightSum)
+            {
+                leftSum += arr[i++];
+            }
+            else
+            {
+                rightSum += arr[j--];
+            }
+        }
+        return i;
     }
 }

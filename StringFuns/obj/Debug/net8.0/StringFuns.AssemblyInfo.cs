@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StringFuns")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e755d74c0798f21dd8cf2248a135d42a8da39f39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("StringFuns")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StringFuns")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

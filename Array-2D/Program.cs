@@ -305,4 +305,119 @@
 
         return newArr;
     }
+
+    //16) All values same in diagonal and all other values are 0
+    public void scalar2d(int[,] arr)
+    {
+        int i, j;
+        int dup = arr[0, 0];
+        bool flag = true;
+        for (i = 0; i < arr.GetLength(0); i++)
+        {
+            for (j = 0; j < arr.GetLength(1); j++)
+            {
+                if (i == j)
+                {
+                    if (arr[i, j] != dup && arr[i, j] != 0)
+                    {
+                        flag = false; break;
+                    }
+                }
+                if (arr[i, j] != 0 && i != j)
+                {
+                    flag = false; break;
+                }
+            }
+            if (flag == false)
+            {
+                Console.WriteLine("Matrix is NOT Scalar Matrix");
+                break;
+            }
+        }
+        if (flag == true)
+        {
+            Console.WriteLine("Matrix is Scalar Matrix");
+        }
+    }
+
+    //17) Diagonal 1 and all 0
+    public void identity2d(int[,] arr)
+    {
+        int i, j;
+        bool flag = true;
+        for (i = 0; i < arr.GetLength(0); i++)
+        {
+            for (j = 0; j < arr.GetLength(1); j++)
+            {
+                if (i == j)
+                {
+                    if (arr[i, j] != 1)
+                    {
+                        flag = false; break;
+                    }
+                }
+                if (arr[i, j] != 0 && i != j)
+                {
+                    flag = false; break;
+                }
+            }
+            if (flag == false)
+            {
+                Console.WriteLine("Matrix is NOT Identity Matrix");
+                break;
+            }
+        }
+        if (flag == true)
+        {
+            Console.WriteLine("Matrix is Identity Matrix");
+        }
+    }
+
+    //18)
+    public void square2d(int[,] arr)
+    {
+        int i, j;
+        for (i = 0; i < arr.GetLength(0); i++)
+        {
+            for (j = 0; j < arr.GetLength(1); j++)
+            {
+                Console.Write((arr[i, j] * arr[i, j]) + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+
+    //19)
+    public void sparse2d(int[,] arr)
+    {
+        int i, j, count = 0;
+        for (i = 0; i < arr.GetLength(0); i++)
+        {
+            for (j = 0; j < arr.GetLength(1); j++)
+            {
+                if (arr[i, j] == 0)
+                    count++;
+            }
+        }
+        if (count > ((arr.GetLength(0)*arr.GetLength(1))/2))
+            Console.WriteLine("It is Sparse Matrix");
+        else Console.WriteLine("It is NOT Sparse Matrix");
+    }
+
+    //20)
+    public void sumDiagonal2d(int[,] arr)
+    {
+        int i, j;
+        int sum = 0;
+        for (i = 0; i < arr.GetLength(0); i++)
+        {
+            for (j = 0; j < arr.GetLength(1); j++)
+            {
+                if (i == j)
+                    sum += arr[i, j];
+            }
+        }
+        Console.WriteLine("Sum of Diagonal elements: " + sum);
+    }
+
 }
