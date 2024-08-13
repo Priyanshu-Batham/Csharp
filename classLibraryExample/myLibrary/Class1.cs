@@ -1,4 +1,6 @@
-﻿namespace myLibrary
+﻿using System.Security.Principal;
+
+namespace myLibrary
 {
 
     public class MyStringFuns {
@@ -114,49 +116,90 @@
         }
 
         //2)
-        public int add3(int n)
+        public bool isArmStrong(int n)
         {
-            return n + 3;
+            int sum = 0;
+            int noOfDigits = countDigits(n);
+            foreach (int num in numberToArray(n))
+            {
+                sum += power(num, noOfDigits);
+            }
+            return sum == n;
         }
         //3)
-        public int add4(int n)
+        public int power(int n, int pow)
         {
-            return n + 4;
+            if (pow == 0) return 1;
+            int newNum = 1;
+            while(pow-- > 0)
+            {
+                newNum *= n;
+            }
+            return newNum;
         }
         //4)
-        public int add5(int n)
+        public int[] numberToArray(int n)
         {
-            return n + 5;
+            int count = countDigits(n);
+            int[] arr = new int[count];
+
+            for(int i = 0; i<count; i++)
+            {
+                int dig = n % 10;
+                n /= 10;
+                arr[count - 1 - i] = dig;
+            }
+            return arr;
         }
         //5)
-        public int add6(int n)
+        public int countDigits(int n)
         {
-            return n + 6;
+            int count = 0;
+            while(n > 0)
+            {
+                count++;
+                n /= 10;
+            }
+            return count;
         }
         //6)
-        public int add7(int n)
+        public bool isPallindromeNumber(int n)
         {
-            return n + 7;
+            return (n == reverseNumber(n));
         }
         //7)
-        public int add8(int n)
+        public int reverseNumber(int n)
         {
-            return n + 8;
+            int num = n, newNum = 0;
+            while(num > 0){
+                int dig = num % 10;
+                newNum *= 10;
+                newNum += dig;
+                num /= 10;
+            }
+            return newNum;
         }
         //8)
-        public int add9(int n)
+        public int factorial(int n)
         {
-            return n + 9;
+            if (n < 2) return n;
+
+            return factorial(n - 1) + factorial(n - 2);
         }
         //9)
-        public int add0(int n)
+        public bool isEven(int n)
         {
-            return n + 0;
+            return (n & 1) == 0;
         }
         //10)
-        public int add1(int n)
+        public bool isPrime(int n)
         {
-            return n + 1;
+            if (n < 2) return true;
+            for(int i = 2; i*i < n; i++)
+            {
+                if (n % i == 0) return false;
+            }
+            return true;
         }
     }
 
