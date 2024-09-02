@@ -1,0 +1,14 @@
+F:\C#\Salary_Project\bin\Debug\net8.0\Salary_Project.exe
+F:\C#\Salary_Project\bin\Debug\net8.0\Salary_Project.deps.json
+F:\C#\Salary_Project\bin\Debug\net8.0\Salary_Project.runtimeconfig.json
+F:\C#\Salary_Project\bin\Debug\net8.0\Salary_Project.dll
+F:\C#\Salary_Project\bin\Debug\net8.0\Salary_Project.pdb
+F:\C#\Salary_Project\obj\Debug\net8.0\Salary_Project.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\Salary_Project\obj\Debug\net8.0\Salary_Project.AssemblyInfoInputs.cache
+F:\C#\Salary_Project\obj\Debug\net8.0\Salary_Project.AssemblyInfo.cs
+F:\C#\Salary_Project\obj\Debug\net8.0\Salary_Project.csproj.CoreCompileInputs.cache
+F:\C#\Salary_Project\obj\Debug\net8.0\Salary_Project.dll
+F:\C#\Salary_Project\obj\Debug\net8.0\refint\Salary_Project.dll
+F:\C#\Salary_Project\obj\Debug\net8.0\Salary_Project.pdb
+F:\C#\Salary_Project\obj\Debug\net8.0\Salary_Project.genruntimeconfig.cache
+F:\C#\Salary_Project\obj\Debug\net8.0\ref\Salary_Project.dll
