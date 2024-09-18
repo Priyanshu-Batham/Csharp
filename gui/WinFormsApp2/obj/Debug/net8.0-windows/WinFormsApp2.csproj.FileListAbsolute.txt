@@ -1,0 +1,37 @@
+E:\C# SEM 5\GUI C#\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.exe
+E:\C# SEM 5\GUI C#\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.deps.json
+E:\C# SEM 5\GUI C#\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.runtimeconfig.json
+E:\C# SEM 5\GUI C#\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.dll
+E:\C# SEM 5\GUI C#\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.pdb
+E:\C# SEM 5\GUI C#\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.Form1.resources
+E:\C# SEM 5\GUI C#\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.csproj.GenerateResource.cache
+E:\C# SEM 5\GUI C#\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# SEM 5\GUI C#\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.AssemblyInfoInputs.cache
+E:\C# SEM 5\GUI C#\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.AssemblyInfo.cs
+E:\C# SEM 5\GUI C#\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.csproj.CoreCompileInputs.cache
+E:\C# SEM 5\GUI C#\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.dll
+E:\C# SEM 5\GUI C#\WinFormsApp2\obj\Debug\net8.0-windows\refint\WinFormsApp2.dll
+E:\C# SEM 5\GUI C#\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.pdb
+E:\C# SEM 5\GUI C#\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.genruntimeconfig.cache
+E:\C# SEM 5\GUI C#\WinFormsApp2\obj\Debug\net8.0-windows\ref\WinFormsApp2.dll
+E:\C# SEM 5\GUI C#\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.Form2.resources
+E:\C# SEM 5\GUI C#\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.UserControl1.resources
+E:\1GITHUB\C#\gui\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.exe
+E:\1GITHUB\C#\gui\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.deps.json
+E:\1GITHUB\C#\gui\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.runtimeconfig.json
+E:\1GITHUB\C#\gui\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.dll
+E:\1GITHUB\C#\gui\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.pdb
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.Form1.resources
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.Form2.resources
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.UserControl1.resources
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.csproj.GenerateResource.cache
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.GeneratedMSBuildEditorConfig.editorconfig
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.AssemblyInfoInputs.cache
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.AssemblyInfo.cs
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.csproj.CoreCompileInputs.cache
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.sourcelink.json
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.dll
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\refint\WinFormsApp2.dll
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.pdb
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.genruntimeconfig.cache
+E:\1GITHUB\C#\gui\WinFormsApp2\obj\Debug\net8.0-windows\ref\WinFormsApp2.dll
