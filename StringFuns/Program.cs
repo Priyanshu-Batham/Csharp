@@ -7,7 +7,8 @@ class StringFuns
     public static void Main()
     {
         StringFuns app = new StringFuns();
-        Console.WriteLine(app.reverseWords("Hello, how are you?"));
+        //app.vowelModifier("Hello How are you");
+        ArrangeLetters.arrange("BaSica");
     }
 
     //1)
@@ -445,8 +446,8 @@ class ArrangeLetters
         }
         newStr += charArr[charArr.Length - 1];
 
-        Console.WriteLine($"Input: {str}");
-        Console.WriteLine($"Output: {newStr}");
+        Console.WriteLine($"Word in Capital: {str}");
+        Console.WriteLine($"Word after sorting: {newStr}");
     }
 }
     

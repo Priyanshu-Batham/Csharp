@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\C#\\Salary_Project\\Salary_Project.csproj": {}
+    "E:\\1GITHUB\\C#\\Salary_Project\\Salary_Project.csproj": {}
   },
   "projects": {
-    "F:\\C#\\Salary_Project\\Salary_Project.csproj": {
+    "E:\\1GITHUB\\C#\\Salary_Project\\Salary_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\C#\\Salary_Project\\Salary_Project.csproj",
+        "projectUniqueName": "E:\\1GITHUB\\C#\\Salary_Project\\Salary_Project.csproj",
         "projectName": "Salary_Project",
-        "projectPath": "F:\\C#\\Salary_Project\\Salary_Project.csproj",
+        "projectPath": "E:\\1GITHUB\\C#\\Salary_Project\\Salary_Project.csproj",
         "packagesPath": "C:\\Users\\Priyanshu\\.nuget\\packages\\",
-        "outputPath": "F:\\C#\\Salary_Project\\obj\\",
+        "outputPath": "E:\\1GITHUB\\C#\\Salary_Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

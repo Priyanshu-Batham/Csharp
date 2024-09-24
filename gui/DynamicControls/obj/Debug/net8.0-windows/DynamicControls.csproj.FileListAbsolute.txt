@@ -1,0 +1,17 @@
+F:\C#\Gui\DynamicControls\bin\Debug\net8.0-windows\DynamicControls.exe
+F:\C#\Gui\DynamicControls\bin\Debug\net8.0-windows\DynamicControls.deps.json
+F:\C#\Gui\DynamicControls\bin\Debug\net8.0-windows\DynamicControls.runtimeconfig.json
+F:\C#\Gui\DynamicControls\bin\Debug\net8.0-windows\DynamicControls.dll
+F:\C#\Gui\DynamicControls\bin\Debug\net8.0-windows\DynamicControls.pdb
+F:\C#\Gui\DynamicControls\obj\Debug\net8.0-windows\DynamicControls.Form1.resources
+F:\C#\Gui\DynamicControls\obj\Debug\net8.0-windows\DynamicControls.MathsFn.resources
+F:\C#\Gui\DynamicControls\obj\Debug\net8.0-windows\DynamicControls.csproj.GenerateResource.cache
+F:\C#\Gui\DynamicControls\obj\Debug\net8.0-windows\DynamicControls.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\Gui\DynamicControls\obj\Debug\net8.0-windows\DynamicControls.AssemblyInfoInputs.cache
+F:\C#\Gui\DynamicControls\obj\Debug\net8.0-windows\DynamicControls.AssemblyInfo.cs
+F:\C#\Gui\DynamicControls\obj\Debug\net8.0-windows\DynamicControls.csproj.CoreCompileInputs.cache
+F:\C#\Gui\DynamicControls\obj\Debug\net8.0-windows\DynamicControls.dll
+F:\C#\Gui\DynamicControls\obj\Debug\net8.0-windows\refint\DynamicControls.dll
+F:\C#\Gui\DynamicControls\obj\Debug\net8.0-windows\DynamicControls.pdb
+F:\C#\Gui\DynamicControls\obj\Debug\net8.0-windows\DynamicControls.genruntimeconfig.cache
+F:\C#\Gui\DynamicControls\obj\Debug\net8.0-windows\ref\DynamicControls.dll

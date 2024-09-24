@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\C#\\phone-number-program\\",
+  "WorkspaceRootPath": "E:\\1GITHUB\\C#\\phone-number-program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C826A97B-E56F-4368-BAA1-FD1BA9015B19}|phone-number-program.csproj|e:\\c#\\phone-number-program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C826A97B-E56F-4368-BAA1-FD1BA9015B19}|phone-number-program.csproj|e:\\1github\\c#\\phone-number-program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C826A97B-E56F-4368-BAA1-FD1BA9015B19}|phone-number-program.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,24 +18,34 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\C#\\phone-number-program\\Program.cs",
+              "DocumentMoniker": "E:\\1GITHUB\\C#\\phone-number-program\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\C#\\phone-number-program\\Program.cs",
+              "ToolTip": "E:\\1GITHUB\\C#\\phone-number-program\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAOoAAAAAAAAAAAAmwO0AAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAO0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T03:44:46.353Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 300,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

@@ -1,0 +1,15 @@
+E:\1GITHUB\C#\practicalQuss\bin\Debug\net8.0\practicalQuss.exe
+E:\1GITHUB\C#\practicalQuss\bin\Debug\net8.0\practicalQuss.deps.json
+E:\1GITHUB\C#\practicalQuss\bin\Debug\net8.0\practicalQuss.runtimeconfig.json
+E:\1GITHUB\C#\practicalQuss\bin\Debug\net8.0\practicalQuss.dll
+E:\1GITHUB\C#\practicalQuss\bin\Debug\net8.0\practicalQuss.pdb
+E:\1GITHUB\C#\practicalQuss\obj\Debug\net8.0\practicalQuss.GeneratedMSBuildEditorConfig.editorconfig
+E:\1GITHUB\C#\practicalQuss\obj\Debug\net8.0\practicalQuss.AssemblyInfoInputs.cache
+E:\1GITHUB\C#\practicalQuss\obj\Debug\net8.0\practicalQuss.AssemblyInfo.cs
+E:\1GITHUB\C#\practicalQuss\obj\Debug\net8.0\practicalQuss.csproj.CoreCompileInputs.cache
+E:\1GITHUB\C#\practicalQuss\obj\Debug\net8.0\practicalQuss.sourcelink.json
+E:\1GITHUB\C#\practicalQuss\obj\Debug\net8.0\practicalQuss.dll
+E:\1GITHUB\C#\practicalQuss\obj\Debug\net8.0\refint\practicalQuss.dll
+E:\1GITHUB\C#\practicalQuss\obj\Debug\net8.0\practicalQuss.pdb
+E:\1GITHUB\C#\practicalQuss\obj\Debug\net8.0\practicalQuss.genruntimeconfig.cache
+E:\1GITHUB\C#\practicalQuss\obj\Debug\net8.0\ref\practicalQuss.dll

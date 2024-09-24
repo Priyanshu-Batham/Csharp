@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Priyanshu\\source\\repos\\emailChecker\\",
+  "WorkspaceRootPath": "E:\\1GITHUB\\C#\\emailChecker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86678D22-8812-47BC-9F91-F7854708BDA5}|emailChecker.csproj|c:\\users\\priyanshu\\source\\repos\\emailchecker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{86678D22-8812-47BC-9F91-F7854708BDA5}|emailChecker.csproj|e:\\1github\\c#\\emailchecker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86678D22-8812-47BC-9F91-F7854708BDA5}|emailChecker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +14,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Priyanshu\\source\\repos\\emailChecker\\Program.cs",
+              "DocumentMoniker": "E:\\1GITHUB\\C#\\emailChecker\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Priyanshu\\source\\repos\\emailChecker\\Program.cs",
+              "ToolTip": "E:\\1GITHUB\\C#\\emailChecker\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAcwA0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T12:33:21.909Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 300,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

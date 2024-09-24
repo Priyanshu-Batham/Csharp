@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\C#\\Salary_Project\\",
+  "WorkspaceRootPath": "E:\\1GITHUB\\C#\\Salary_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D59D048-E1AF-4711-A91A-344507A3506D}|Salary_Project.csproj|f:\\c#\\salary_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D59D048-E1AF-4711-A91A-344507A3506D}|Salary_Project.csproj|e:\\1github\\c#\\salary_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D59D048-E1AF-4711-A91A-344507A3506D}|Salary_Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,14 +28,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\C#\\Salary_Project\\Program.cs",
+              "DocumentMoniker": "E:\\1GITHUB\\C#\\Salary_Project\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\C#\\Salary_Project\\Program.cs",
+              "ToolTip": "E:\\1GITHUB\\C#\\Salary_Project\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAHgBAAAAAAAAAAAQwIcBAAAmAAAA",
+              "ViewState": "AQIAAJ4BAAAAAAAAAAAmwLEBAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T15:02:36.145Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 300,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

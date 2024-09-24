@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\C#\\Array-1D\\Array-1D.csproj": {}
+    "E:\\1GITHUB\\C#\\Array-1D\\Array-1D.csproj": {}
   },
   "projects": {
-    "F:\\C#\\Array-1D\\Array-1D.csproj": {
+    "E:\\1GITHUB\\C#\\Array-1D\\Array-1D.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\C#\\Array-1D\\Array-1D.csproj",
+        "projectUniqueName": "E:\\1GITHUB\\C#\\Array-1D\\Array-1D.csproj",
         "projectName": "Array-1D",
-        "projectPath": "F:\\C#\\Array-1D\\Array-1D.csproj",
+        "projectPath": "E:\\1GITHUB\\C#\\Array-1D\\Array-1D.csproj",
         "packagesPath": "C:\\Users\\Priyanshu\\.nuget\\packages\\",
-        "outputPath": "F:\\C#\\Array-1D\\obj\\",
+        "outputPath": "E:\\1GITHUB\\C#\\Array-1D\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

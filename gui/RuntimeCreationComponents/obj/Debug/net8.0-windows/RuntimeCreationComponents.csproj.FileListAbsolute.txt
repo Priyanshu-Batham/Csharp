@@ -1,0 +1,16 @@
+E:\C#\Gui\RuntimeCreationComponents\bin\Debug\net8.0-windows\RuntimeCreationComponents.exe
+E:\C#\Gui\RuntimeCreationComponents\bin\Debug\net8.0-windows\RuntimeCreationComponents.deps.json
+E:\C#\Gui\RuntimeCreationComponents\bin\Debug\net8.0-windows\RuntimeCreationComponents.runtimeconfig.json
+E:\C#\Gui\RuntimeCreationComponents\bin\Debug\net8.0-windows\RuntimeCreationComponents.dll
+E:\C#\Gui\RuntimeCreationComponents\bin\Debug\net8.0-windows\RuntimeCreationComponents.pdb
+E:\C#\Gui\RuntimeCreationComponents\obj\Debug\net8.0-windows\RuntimeCreationComponents.Form1.resources
+E:\C#\Gui\RuntimeCreationComponents\obj\Debug\net8.0-windows\RuntimeCreationComponents.csproj.GenerateResource.cache
+E:\C#\Gui\RuntimeCreationComponents\obj\Debug\net8.0-windows\RuntimeCreationComponents.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Gui\RuntimeCreationComponents\obj\Debug\net8.0-windows\RuntimeCreationComponents.AssemblyInfoInputs.cache
+E:\C#\Gui\RuntimeCreationComponents\obj\Debug\net8.0-windows\RuntimeCreationComponents.AssemblyInfo.cs
+E:\C#\Gui\RuntimeCreationComponents\obj\Debug\net8.0-windows\RuntimeCreationComponents.csproj.CoreCompileInputs.cache
+E:\C#\Gui\RuntimeCreationComponents\obj\Debug\net8.0-windows\RuntimeCreationComponents.dll
+E:\C#\Gui\RuntimeCreationComponents\obj\Debug\net8.0-windows\refint\RuntimeCreationComponents.dll
+E:\C#\Gui\RuntimeCreationComponents\obj\Debug\net8.0-windows\RuntimeCreationComponents.pdb
+E:\C#\Gui\RuntimeCreationComponents\obj\Debug\net8.0-windows\RuntimeCreationComponents.genruntimeconfig.cache
+E:\C#\Gui\RuntimeCreationComponents\obj\Debug\net8.0-windows\ref\RuntimeCreationComponents.dll
