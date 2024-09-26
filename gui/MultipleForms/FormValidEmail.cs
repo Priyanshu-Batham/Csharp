@@ -20,7 +20,10 @@ namespace MultipleForms
         private void btnEmailSubmit_Click(object sender, EventArgs e)
         {
             string email = txtEmail.Text;
-            if (email.Contains("@")) ;
+            if (email.Contains("@") && email.Contains(".com"))
+            {
+                
+            }
         }
     }
 }

@@ -1,0 +1,16 @@
+F:\C#\Gui\Traffic&Car\bin\Debug\net8.0-windows\Traffic&Car.exe
+F:\C#\Gui\Traffic&Car\bin\Debug\net8.0-windows\Traffic&Car.deps.json
+F:\C#\Gui\Traffic&Car\bin\Debug\net8.0-windows\Traffic&Car.runtimeconfig.json
+F:\C#\Gui\Traffic&Car\bin\Debug\net8.0-windows\Traffic&Car.dll
+F:\C#\Gui\Traffic&Car\bin\Debug\net8.0-windows\Traffic&Car.pdb
+F:\C#\Gui\Traffic&Car\obj\Debug\net8.0-windows\Traffic_Car.Form1.resources
+F:\C#\Gui\Traffic&Car\obj\Debug\net8.0-windows\Traffic&Car.csproj.GenerateResource.cache
+F:\C#\Gui\Traffic&Car\obj\Debug\net8.0-windows\Traffic&Car.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\Gui\Traffic&Car\obj\Debug\net8.0-windows\Traffic&Car.AssemblyInfoInputs.cache
+F:\C#\Gui\Traffic&Car\obj\Debug\net8.0-windows\Traffic&Car.AssemblyInfo.cs
+F:\C#\Gui\Traffic&Car\obj\Debug\net8.0-windows\Traffic&Car.csproj.CoreCompileInputs.cache
+F:\C#\Gui\Traffic&Car\obj\Debug\net8.0-windows\Traffic&Car.dll
+F:\C#\Gui\Traffic&Car\obj\Debug\net8.0-windows\refint\Traffic&Car.dll
+F:\C#\Gui\Traffic&Car\obj\Debug\net8.0-windows\Traffic&Car.pdb
+F:\C#\Gui\Traffic&Car\obj\Debug\net8.0-windows\Traffic&Car.genruntimeconfig.cache
+F:\C#\Gui\Traffic&Car\obj\Debug\net8.0-windows\ref\Traffic&Car.dll

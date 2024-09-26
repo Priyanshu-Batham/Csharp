@@ -46,7 +46,7 @@
             // lblUsername
             // 
             lblUsername.AutoSize = true;
-            lblUsername.Location = new Point(71, 127);
+            lblUsername.Location = new Point(451, 103);
             lblUsername.Name = "lblUsername";
             lblUsername.Size = new Size(90, 15);
             lblUsername.TabIndex = 0;
@@ -55,7 +55,7 @@
             // lblUserpassword
             // 
             lblUserpassword.AutoSize = true;
-            lblUserpassword.Location = new Point(71, 164);
+            lblUserpassword.Location = new Point(451, 140);
             lblUserpassword.Name = "lblUserpassword";
             lblUserpassword.Size = new Size(87, 15);
             lblUserpassword.TabIndex = 1;
@@ -63,14 +63,14 @@
             // 
             // txtUsername
             // 
-            txtUsername.Location = new Point(167, 127);
+            txtUsername.Location = new Point(547, 103);
             txtUsername.Name = "txtUsername";
             txtUsername.Size = new Size(155, 23);
             txtUsername.TabIndex = 2;
             // 
             // txtUserpassword
             // 
-            txtUserpassword.Location = new Point(167, 164);
+            txtUserpassword.Location = new Point(547, 140);
             txtUserpassword.Name = "txtUserpassword";
             txtUserpassword.PasswordChar = '*';
             txtUserpassword.Size = new Size(155, 23);
@@ -80,7 +80,7 @@
             // 
             lblError.AutoSize = true;
             lblError.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblError.Location = new Point(201, 259);
+            lblError.Location = new Point(575, 247);
             lblError.Name = "lblError";
             lblError.Size = new Size(63, 25);
             lblError.TabIndex = 5;
@@ -88,14 +88,14 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(533, 126);
+            textBox1.Location = new Point(122, 114);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(165, 23);
             textBox1.TabIndex = 6;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(533, 170);
+            textBox2.Location = new Point(122, 158);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(165, 23);
             textBox2.TabIndex = 7;
@@ -103,7 +103,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(533, 108);
+            label1.Location = new Point(122, 96);
             label1.Name = "label1";
             label1.Size = new Size(90, 15);
             label1.TabIndex = 8;
@@ -112,7 +112,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(536, 152);
+            label2.Location = new Point(125, 140);
             label2.Name = "label2";
             label2.Size = new Size(87, 15);
             label2.TabIndex = 9;
@@ -120,7 +120,7 @@
             // 
             // btnAddUser
             // 
-            btnAddUser.Location = new Point(578, 205);
+            btnAddUser.Location = new Point(167, 193);
             btnAddUser.Name = "btnAddUser";
             btnAddUser.Size = new Size(75, 23);
             btnAddUser.TabIndex = 10;
@@ -130,7 +130,7 @@
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(176, 205);
+            btnLogin.Location = new Point(556, 181);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(82, 27);
             btnLogin.TabIndex = 11;
@@ -142,7 +142,7 @@
             // 
             lblAddUser.AutoSize = true;
             lblAddUser.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblAddUser.Location = new Point(585, 259);
+            lblAddUser.Location = new Point(174, 247);
             lblAddUser.Name = "lblAddUser";
             lblAddUser.Size = new Size(105, 25);
             lblAddUser.TabIndex = 12;
@@ -150,7 +150,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(396, 366);
+            button1.Location = new Point(353, 366);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 13;

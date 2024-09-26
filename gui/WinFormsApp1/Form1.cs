@@ -1,40 +1,28 @@
-namespace WinFormsApp1
+namespace DynamicControls
 {
-    public partial class Form1 : Form
+    public partial class DynoForm1 : Form
     {
-        public Form1()
+        public static string operation;
+        public DynoForm1()
         {
             InitializeComponent();
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                int textbox1data = Convert.ToInt32(textBox1.Text);
-                int textbox2data = Convert.ToInt32(textBox2.Text);
-                int sum = textbox1data + textbox2data;
-                textBox3.Text = sum.ToString();
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+            comboBox1.Items.Add("Min");
+            comboBox1.Items.Add("Max");
+            comboBox1.Items.Add("Square");
+            comboBox1.Items.Add("Power");
+            comboBox1.Items.Add("Absolute");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox3.BackColor = Color.Red;
+            if (comboBox1.Text == "") return;
+            operation = comboBox1.Text;
+            MathsForm form = new MathsForm();
+            form.ShowDialog();
         }
     }
 }
