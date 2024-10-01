@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\1GITHUB\\C#\\self\\Collections\\Collections.csproj",
+      "projectUniqueName": "E:\\1GITHUB\\C#\\Collections\\Collections.csproj",
       "projectName": "Collections",
-      "projectPath": "E:\\1GITHUB\\C#\\self\\Collections\\Collections.csproj",
+      "projectPath": "E:\\1GITHUB\\C#\\Collections\\Collections.csproj",
       "packagesPath": "C:\\Users\\Priyanshu\\.nuget\\packages\\",
-      "outputPath": "E:\\1GITHUB\\C#\\self\\Collections\\obj\\",
+      "outputPath": "E:\\1GITHUB\\C#\\Collections\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

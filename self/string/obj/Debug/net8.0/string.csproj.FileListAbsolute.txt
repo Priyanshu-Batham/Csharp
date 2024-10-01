@@ -1,0 +1,15 @@
+E:\1GITHUB\C#\self\string\obj\Debug\net8.0\string.GeneratedMSBuildEditorConfig.editorconfig
+E:\1GITHUB\C#\self\string\obj\Debug\net8.0\string.AssemblyInfoInputs.cache
+E:\1GITHUB\C#\self\string\obj\Debug\net8.0\string.AssemblyInfo.cs
+E:\1GITHUB\C#\self\string\obj\Debug\net8.0\string.csproj.CoreCompileInputs.cache
+E:\1GITHUB\C#\self\string\obj\Debug\net8.0\string.sourcelink.json
+E:\1GITHUB\C#\self\string\bin\Debug\net8.0\string.exe
+E:\1GITHUB\C#\self\string\bin\Debug\net8.0\string.deps.json
+E:\1GITHUB\C#\self\string\bin\Debug\net8.0\string.runtimeconfig.json
+E:\1GITHUB\C#\self\string\bin\Debug\net8.0\string.dll
+E:\1GITHUB\C#\self\string\bin\Debug\net8.0\string.pdb
+E:\1GITHUB\C#\self\string\obj\Debug\net8.0\string.dll
+E:\1GITHUB\C#\self\string\obj\Debug\net8.0\refint\string.dll
+E:\1GITHUB\C#\self\string\obj\Debug\net8.0\string.pdb
+E:\1GITHUB\C#\self\string\obj\Debug\net8.0\string.genruntimeconfig.cache
+E:\1GITHUB\C#\self\string\obj\Debug\net8.0\ref\string.dll

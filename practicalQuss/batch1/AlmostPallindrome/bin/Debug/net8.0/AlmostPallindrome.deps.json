@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AlmostPallindrome/1.0.0": {
+        "runtime": {
+          "AlmostPallindrome.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AlmostPallindrome/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

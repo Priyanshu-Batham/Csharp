@@ -1,0 +1,15 @@
+E:\1GITHUB\C#\self\Rotation2D\bin\Debug\net8.0\Rotation2D.exe
+E:\1GITHUB\C#\self\Rotation2D\bin\Debug\net8.0\Rotation2D.deps.json
+E:\1GITHUB\C#\self\Rotation2D\bin\Debug\net8.0\Rotation2D.runtimeconfig.json
+E:\1GITHUB\C#\self\Rotation2D\bin\Debug\net8.0\Rotation2D.dll
+E:\1GITHUB\C#\self\Rotation2D\bin\Debug\net8.0\Rotation2D.pdb
+E:\1GITHUB\C#\self\Rotation2D\obj\Debug\net8.0\Rotation2D.GeneratedMSBuildEditorConfig.editorconfig
+E:\1GITHUB\C#\self\Rotation2D\obj\Debug\net8.0\Rotation2D.AssemblyInfoInputs.cache
+E:\1GITHUB\C#\self\Rotation2D\obj\Debug\net8.0\Rotation2D.AssemblyInfo.cs
+E:\1GITHUB\C#\self\Rotation2D\obj\Debug\net8.0\Rotation2D.csproj.CoreCompileInputs.cache
+E:\1GITHUB\C#\self\Rotation2D\obj\Debug\net8.0\Rotation2D.sourcelink.json
+E:\1GITHUB\C#\self\Rotation2D\obj\Debug\net8.0\Rotation2D.dll
+E:\1GITHUB\C#\self\Rotation2D\obj\Debug\net8.0\refint\Rotation2D.dll
+E:\1GITHUB\C#\self\Rotation2D\obj\Debug\net8.0\Rotation2D.pdb
+E:\1GITHUB\C#\self\Rotation2D\obj\Debug\net8.0\Rotation2D.genruntimeconfig.cache
+E:\1GITHUB\C#\self\Rotation2D\obj\Debug\net8.0\ref\Rotation2D.dll

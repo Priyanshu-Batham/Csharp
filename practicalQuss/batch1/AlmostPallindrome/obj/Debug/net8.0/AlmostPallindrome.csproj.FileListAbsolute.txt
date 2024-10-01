@@ -1,0 +1,14 @@
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\bin\Debug\net8.0\AlmostPallindrome.exe
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\bin\Debug\net8.0\AlmostPallindrome.deps.json
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\bin\Debug\net8.0\AlmostPallindrome.runtimeconfig.json
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\bin\Debug\net8.0\AlmostPallindrome.dll
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\bin\Debug\net8.0\AlmostPallindrome.pdb
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\obj\Debug\net8.0\AlmostPallindrome.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\obj\Debug\net8.0\AlmostPallindrome.AssemblyInfoInputs.cache
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\obj\Debug\net8.0\AlmostPallindrome.AssemblyInfo.cs
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\obj\Debug\net8.0\AlmostPallindrome.csproj.CoreCompileInputs.cache
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\obj\Debug\net8.0\AlmostPallindrome.dll
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\obj\Debug\net8.0\refint\AlmostPallindrome.dll
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\obj\Debug\net8.0\AlmostPallindrome.pdb
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\obj\Debug\net8.0\AlmostPallindrome.genruntimeconfig.cache
+C:\Users\NPGC LAB 4\Desktop\Csharp_practical\qus1\AlmostPallindrome\obj\Debug\net8.0\ref\AlmostPallindrome.dll
