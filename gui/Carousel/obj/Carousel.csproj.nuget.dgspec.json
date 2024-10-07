@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NPGC LAB 4\\Desktop\\Carousel\\Carousel.csproj": {}
+    "E:\\1GITHUB\\C#\\gui\\Carousel\\Carousel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NPGC LAB 4\\Desktop\\Carousel\\Carousel.csproj": {
+    "E:\\1GITHUB\\C#\\gui\\Carousel\\Carousel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NPGC LAB 4\\Desktop\\Carousel\\Carousel.csproj",
+        "projectUniqueName": "E:\\1GITHUB\\C#\\gui\\Carousel\\Carousel.csproj",
         "projectName": "Carousel",
-        "projectPath": "C:\\Users\\NPGC LAB 4\\Desktop\\Carousel\\Carousel.csproj",
-        "packagesPath": "C:\\Users\\NPGC LAB 4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NPGC LAB 4\\Desktop\\Carousel\\obj\\",
+        "projectPath": "E:\\1GITHUB\\C#\\gui\\Carousel\\Carousel.csproj",
+        "packagesPath": "C:\\Users\\Priyanshu\\.nuget\\packages\\",
+        "outputPath": "E:\\1GITHUB\\C#\\gui\\Carousel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\NPGC LAB 4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Priyanshu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

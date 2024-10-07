@@ -14,6 +14,7 @@ namespace Carousel
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //!!!!Write the Absolute Path from the machine you are running it from
             images.Add(Image.FromFile("C:\\Users\\NPGC LAB 4\\Desktop\\Carousel\\image1.jpg"));
             images.Add(Image.FromFile("C:\\Users\\NPGC LAB 4\\Desktop\\Carousel\\image2.jpg"));
             images.Add(Image.FromFile("C:\\Users\\NPGC LAB 4\\Desktop\\Carousel\\image3.jpg"));

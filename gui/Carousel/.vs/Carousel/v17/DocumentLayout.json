@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\NPGC LAB 4\\Desktop\\Carousel\\",
+  "WorkspaceRootPath": "E:\\1GITHUB\\C#\\gui\\Carousel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{395CA42F-2ABF-43A6-AD82-8E28AA4D6DD2}|Carousel.csproj|c:\\users\\npgc lab 4\\desktop\\carousel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{395CA42F-2ABF-43A6-AD82-8E28AA4D6DD2}|Carousel.csproj|e:\\1github\\c#\\gui\\carousel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{395CA42F-2ABF-43A6-AD82-8E28AA4D6DD2}|Carousel.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{395CA42F-2ABF-43A6-AD82-8E28AA4D6DD2}|Carousel.csproj|c:\\users\\npgc lab 4\\desktop\\carousel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{395CA42F-2ABF-43A6-AD82-8E28AA4D6DD2}|Carousel.csproj|E:\\1GITHUB\\C#\\gui\\Carousel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{395CA42F-2ABF-43A6-AD82-8E28AA4D6DD2}|Carousel.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 376,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,14 +29,22 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\NPGC LAB 4\\Desktop\\Carousel\\Form1.cs",
+              "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\Carousel\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\NPGC LAB 4\\Desktop\\Carousel\\Form1.cs",
+              "ToolTip": "E:\\1GITHUB\\C#\\gui\\Carousel\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T03:49:25.943Z",
               "EditorCaption": ""
@@ -45,13 +53,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NPGC LAB 4\\Desktop\\Carousel\\Form1.cs",
+              "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\Carousel\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\NPGC LAB 4\\Desktop\\Carousel\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T03:47:21.838Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-07T03:47:21.838Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 300,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
