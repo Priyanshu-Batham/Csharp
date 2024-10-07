@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultipleForms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a301709beeaf9a45363af46971cc06301cc36fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultipleForms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultipleForms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

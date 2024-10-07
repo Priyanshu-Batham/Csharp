@@ -1,0 +1,17 @@
+C:\Users\NPGC LAB 4\Desktop\Carousel\bin\Debug\net8.0-windows\Carousel.exe
+C:\Users\NPGC LAB 4\Desktop\Carousel\bin\Debug\net8.0-windows\Carousel.deps.json
+C:\Users\NPGC LAB 4\Desktop\Carousel\bin\Debug\net8.0-windows\Carousel.runtimeconfig.json
+C:\Users\NPGC LAB 4\Desktop\Carousel\bin\Debug\net8.0-windows\Carousel.dll
+C:\Users\NPGC LAB 4\Desktop\Carousel\bin\Debug\net8.0-windows\Carousel.pdb
+C:\Users\NPGC LAB 4\Desktop\Carousel\obj\Debug\net8.0-windows\Carousel.Form1.resources
+C:\Users\NPGC LAB 4\Desktop\Carousel\obj\Debug\net8.0-windows\Carousel.Properties.Resources.resources
+C:\Users\NPGC LAB 4\Desktop\Carousel\obj\Debug\net8.0-windows\Carousel.csproj.GenerateResource.cache
+C:\Users\NPGC LAB 4\Desktop\Carousel\obj\Debug\net8.0-windows\Carousel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NPGC LAB 4\Desktop\Carousel\obj\Debug\net8.0-windows\Carousel.AssemblyInfoInputs.cache
+C:\Users\NPGC LAB 4\Desktop\Carousel\obj\Debug\net8.0-windows\Carousel.AssemblyInfo.cs
+C:\Users\NPGC LAB 4\Desktop\Carousel\obj\Debug\net8.0-windows\Carousel.csproj.CoreCompileInputs.cache
+C:\Users\NPGC LAB 4\Desktop\Carousel\obj\Debug\net8.0-windows\Carousel.dll
+C:\Users\NPGC LAB 4\Desktop\Carousel\obj\Debug\net8.0-windows\refint\Carousel.dll
+C:\Users\NPGC LAB 4\Desktop\Carousel\obj\Debug\net8.0-windows\Carousel.pdb
+C:\Users\NPGC LAB 4\Desktop\Carousel\obj\Debug\net8.0-windows\Carousel.genruntimeconfig.cache
+C:\Users\NPGC LAB 4\Desktop\Carousel\obj\Debug\net8.0-windows\ref\Carousel.dll

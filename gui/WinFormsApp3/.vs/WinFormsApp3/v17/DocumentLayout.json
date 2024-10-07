@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\C#\\Gui\\WinFormsApp3\\",
+  "WorkspaceRootPath": "E:\\1GITHUB\\C#\\gui\\WinFormsApp3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83B910F9-01EA-48FF-902C-1A829977E674}|WinFormsApp3.csproj|f:\\c#\\gui\\winformsapp3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{83B910F9-01EA-48FF-902C-1A829977E674}|WinFormsApp3.csproj|e:\\1github\\c#\\gui\\winformsapp3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83B910F9-01EA-48FF-902C-1A829977E674}|WinFormsApp3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83B910F9-01EA-48FF-902C-1A829977E674}|WinFormsApp3.csproj|f:\\c#\\gui\\winformsapp3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{83B910F9-01EA-48FF-902C-1A829977E674}|WinFormsApp3.csproj|e:\\1github\\c#\\gui\\winformsapp3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{83B910F9-01EA-48FF-902C-1A829977E674}|WinFormsApp3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B910F9-01EA-48FF-902C-1A829977E674}|WinFormsApp3.csproj|e:\\1github\\c#\\gui\\winformsapp3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83B910F9-01EA-48FF-902C-1A829977E674}|WinFormsApp3.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,8 +21,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 247,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,14 +33,35 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\WinFormsApp3\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "E:\\1GITHUB\\C#\\gui\\WinFormsApp3\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAASwDkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T05:20:20.004Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "F:\\C#\\Gui\\WinFormsApp3\\Form1.cs",
+              "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\WinFormsApp3\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "F:\\C#\\Gui\\WinFormsApp3\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
+              "ToolTip": "E:\\1GITHUB\\C#\\gui\\WinFormsApp3\\Form1.cs*",
+              "RelativeToolTip": "Form1.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T03:35:43.841Z",
               "EditorCaption": ""
@@ -44,7 +69,7 @@
           ]
         },
         {
-          "DockedWidth": 200,
+          "DockedWidth": 153,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -55,10 +80,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "F:\\C#\\Gui\\WinFormsApp3\\Form1.cs",
+              "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\WinFormsApp3\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "F:\\C#\\Gui\\WinFormsApp3\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "ToolTip": "E:\\1GITHUB\\C#\\gui\\WinFormsApp3\\Form1.cs [Design]*",
+              "RelativeToolTip": "Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T03:35:17.402Z",
               "EditorCaption": " [Design]"

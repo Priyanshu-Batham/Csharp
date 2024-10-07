@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\C#\\Gui\\MultipleForms\\MultipleForms.csproj": {}
+    "E:\\1GITHUB\\C#\\gui\\MultipleForms\\MultipleForms.csproj": {}
   },
   "projects": {
-    "F:\\C#\\Gui\\MultipleForms\\MultipleForms.csproj": {
+    "E:\\1GITHUB\\C#\\gui\\MultipleForms\\MultipleForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\C#\\Gui\\MultipleForms\\MultipleForms.csproj",
+        "projectUniqueName": "E:\\1GITHUB\\C#\\gui\\MultipleForms\\MultipleForms.csproj",
         "projectName": "MultipleForms",
-        "projectPath": "F:\\C#\\Gui\\MultipleForms\\MultipleForms.csproj",
+        "projectPath": "E:\\1GITHUB\\C#\\gui\\MultipleForms\\MultipleForms.csproj",
         "packagesPath": "C:\\Users\\Priyanshu\\.nuget\\packages\\",
-        "outputPath": "F:\\C#\\Gui\\MultipleForms\\obj\\",
+        "outputPath": "E:\\1GITHUB\\C#\\gui\\MultipleForms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -13,6 +13,11 @@ namespace WinFormsApp3
             listBox1.Items.Add("mumbai");
             listBox1.Items.Add("delhi");
             listBox1.Items.Add("goa");
+
+            comboBox1.Items.Add("1");
+            comboBox1.Items.Add("2");
+            comboBox1.Items.Add("3");
+            comboBox1.Text = "hi";
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -1,0 +1,36 @@
+C:\Users\NPGC LAB 4\Desktop\groupBox\bin\Debug\net8.0-windows\groupBox.exe
+C:\Users\NPGC LAB 4\Desktop\groupBox\bin\Debug\net8.0-windows\groupBox.deps.json
+C:\Users\NPGC LAB 4\Desktop\groupBox\bin\Debug\net8.0-windows\groupBox.runtimeconfig.json
+C:\Users\NPGC LAB 4\Desktop\groupBox\bin\Debug\net8.0-windows\groupBox.dll
+C:\Users\NPGC LAB 4\Desktop\groupBox\bin\Debug\net8.0-windows\groupBox.pdb
+C:\Users\NPGC LAB 4\Desktop\groupBox\obj\Debug\net8.0-windows\groupBox.Form1.resources
+C:\Users\NPGC LAB 4\Desktop\groupBox\obj\Debug\net8.0-windows\groupBox.csproj.GenerateResource.cache
+C:\Users\NPGC LAB 4\Desktop\groupBox\obj\Debug\net8.0-windows\groupBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NPGC LAB 4\Desktop\groupBox\obj\Debug\net8.0-windows\groupBox.AssemblyInfoInputs.cache
+C:\Users\NPGC LAB 4\Desktop\groupBox\obj\Debug\net8.0-windows\groupBox.AssemblyInfo.cs
+C:\Users\NPGC LAB 4\Desktop\groupBox\obj\Debug\net8.0-windows\groupBox.csproj.CoreCompileInputs.cache
+C:\Users\NPGC LAB 4\Desktop\groupBox\obj\Debug\net8.0-windows\groupBox.dll
+C:\Users\NPGC LAB 4\Desktop\groupBox\obj\Debug\net8.0-windows\refint\groupBox.dll
+C:\Users\NPGC LAB 4\Desktop\groupBox\obj\Debug\net8.0-windows\groupBox.pdb
+C:\Users\NPGC LAB 4\Desktop\groupBox\obj\Debug\net8.0-windows\groupBox.genruntimeconfig.cache
+C:\Users\NPGC LAB 4\Desktop\groupBox\obj\Debug\net8.0-windows\ref\groupBox.dll
+C:\Users\NPGC LAB 4\Desktop\groupBox\obj\Debug\net8.0-windows\groupBox.Properties.Resources.resources
+E:\1GITHUB\C#\gui\groupBox\bin\Debug\net8.0-windows\groupBox.exe
+E:\1GITHUB\C#\gui\groupBox\bin\Debug\net8.0-windows\groupBox.deps.json
+E:\1GITHUB\C#\gui\groupBox\bin\Debug\net8.0-windows\groupBox.runtimeconfig.json
+E:\1GITHUB\C#\gui\groupBox\bin\Debug\net8.0-windows\groupBox.dll
+E:\1GITHUB\C#\gui\groupBox\bin\Debug\net8.0-windows\groupBox.pdb
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\groupBox.Form1.resources
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\groupBox.Properties.Resources.resources
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\groupBox.QuizGame.resources
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\groupBox.csproj.GenerateResource.cache
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\groupBox.GeneratedMSBuildEditorConfig.editorconfig
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\groupBox.AssemblyInfoInputs.cache
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\groupBox.AssemblyInfo.cs
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\groupBox.csproj.CoreCompileInputs.cache
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\groupBox.sourcelink.json
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\groupBox.dll
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\refint\groupBox.dll
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\groupBox.pdb
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\groupBox.genruntimeconfig.cache
+E:\1GITHUB\C#\gui\groupBox\obj\Debug\net8.0-windows\ref\groupBox.dll

@@ -70,6 +70,7 @@
             // textBox1
             // 
             textBox1.Location = new Point(320, 108);
+            textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(120, 23);
             textBox1.TabIndex = 4;
