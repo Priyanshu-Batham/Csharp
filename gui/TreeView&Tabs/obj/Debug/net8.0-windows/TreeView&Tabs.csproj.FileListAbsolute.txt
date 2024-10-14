@@ -1,0 +1,17 @@
+D:\Priyanshu\csharp\gui\TreeView&Tabs\bin\Debug\net8.0-windows\TreeView&Tabs.exe
+D:\Priyanshu\csharp\gui\TreeView&Tabs\bin\Debug\net8.0-windows\TreeView&Tabs.deps.json
+D:\Priyanshu\csharp\gui\TreeView&Tabs\bin\Debug\net8.0-windows\TreeView&Tabs.runtimeconfig.json
+D:\Priyanshu\csharp\gui\TreeView&Tabs\bin\Debug\net8.0-windows\TreeView&Tabs.dll
+D:\Priyanshu\csharp\gui\TreeView&Tabs\bin\Debug\net8.0-windows\TreeView&Tabs.pdb
+D:\Priyanshu\csharp\gui\TreeView&Tabs\obj\Debug\net8.0-windows\TreeView_Tabs.Form1.resources
+D:\Priyanshu\csharp\gui\TreeView&Tabs\obj\Debug\net8.0-windows\TreeView&Tabs.csproj.GenerateResource.cache
+D:\Priyanshu\csharp\gui\TreeView&Tabs\obj\Debug\net8.0-windows\TreeView&Tabs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Priyanshu\csharp\gui\TreeView&Tabs\obj\Debug\net8.0-windows\TreeView&Tabs.AssemblyInfoInputs.cache
+D:\Priyanshu\csharp\gui\TreeView&Tabs\obj\Debug\net8.0-windows\TreeView&Tabs.AssemblyInfo.cs
+D:\Priyanshu\csharp\gui\TreeView&Tabs\obj\Debug\net8.0-windows\TreeView&Tabs.csproj.CoreCompileInputs.cache
+D:\Priyanshu\csharp\gui\TreeView&Tabs\obj\Debug\net8.0-windows\TreeView&Tabs.sourcelink.json
+D:\Priyanshu\csharp\gui\TreeView&Tabs\obj\Debug\net8.0-windows\TreeView&Tabs.dll
+D:\Priyanshu\csharp\gui\TreeView&Tabs\obj\Debug\net8.0-windows\refint\TreeView&Tabs.dll
+D:\Priyanshu\csharp\gui\TreeView&Tabs\obj\Debug\net8.0-windows\TreeView&Tabs.pdb
+D:\Priyanshu\csharp\gui\TreeView&Tabs\obj\Debug\net8.0-windows\TreeView&Tabs.genruntimeconfig.cache
+D:\Priyanshu\csharp\gui\TreeView&Tabs\obj\Debug\net8.0-windows\ref\TreeView&Tabs.dll

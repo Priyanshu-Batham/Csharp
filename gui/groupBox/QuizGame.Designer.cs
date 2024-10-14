@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             labelQues = new Label();
             groupBox1 = new GroupBox();
             radioButton3 = new RadioButton();
@@ -35,6 +36,8 @@
             radioButton2 = new RadioButton();
             radioButton1 = new RadioButton();
             button1 = new Button();
+            timer1 = new System.Windows.Forms.Timer(components);
+            label1 = new Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -115,11 +118,28 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(12, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(57, 21);
+            label1.TabIndex = 3;
+            label1.Text = "label1";
+            // 
             // QuizGame
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(button1);
             Controls.Add(groupBox1);
             Controls.Add(labelQues);
@@ -141,5 +161,7 @@
         private RadioButton radioButton4;
         private RadioButton radioButton2;
         private Button button1;
+        private System.Windows.Forms.Timer timer1;
+        private Label label1;
     }
 }

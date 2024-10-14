@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Priyanshu\\Csharp\\gui\\SoftwareForm\\",
+  "WorkspaceRootPath": "E:\\1GITHUB\\C#\\gui\\SoftwareForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|d:\\priyanshu\\csharp\\gui\\softwareform\\notepadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|solutionrelative:notepadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|d:\\priyanshu\\csharp\\gui\\softwareform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|e:\\1github\\c#\\gui\\softwareform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|d:\\priyanshu\\csharp\\gui\\softwareform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|E:\\1GITHUB\\C#\\gui\\SoftwareForm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|d:\\priyanshu\\csharp\\gui\\softwareform\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|e:\\1github\\c#\\gui\\softwareform\\notepadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|solutionrelative:notepadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|e:\\1github\\c#\\gui\\softwareform\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|d:\\priyanshu\\csharp\\gui\\softwareform\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|E:\\1GITHUB\\C#\\gui\\SoftwareForm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FEC83F5B-C0BA-4678-BA66-E47F7D53E161}|SoftwareForm.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -30,23 +30,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 376,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\SoftwareForm\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "E:\\1GITHUB\\C#\\gui\\SoftwareForm\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T03:40:41.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Login.cs",
-              "DocumentMoniker": "D:\\Priyanshu\\Csharp\\gui\\SoftwareForm\\Login.cs",
+              "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\SoftwareForm\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "D:\\Priyanshu\\Csharp\\gui\\SoftwareForm\\Login.cs",
+              "ToolTip": "E:\\1GITHUB\\C#\\gui\\SoftwareForm\\Login.cs",
               "RelativeToolTip": "Login.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,23 +77,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Priyanshu\\Csharp\\gui\\SoftwareForm\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Priyanshu\\Csharp\\gui\\SoftwareForm\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:40:41.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Priyanshu\\Csharp\\gui\\SoftwareForm\\Form1.cs",
+              "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\SoftwareForm\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Priyanshu\\Csharp\\gui\\SoftwareForm\\Form1.cs [Design]",
+              "ToolTip": "E:\\1GITHUB\\C#\\gui\\SoftwareForm\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T03:41:23.854Z",
@@ -82,25 +90,33 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\Priyanshu\\Csharp\\gui\\SoftwareForm\\Login.cs",
+              "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\SoftwareForm\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
               "ToolTip": "D:\\Priyanshu\\Csharp\\gui\\SoftwareForm\\Login.cs [Design]",
-              "RelativeToolTip": "Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:43:15.176Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-08T03:43:15.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NotepadForm.cs [Design]",
-              "DocumentMoniker": "D:\\Priyanshu\\Csharp\\gui\\SoftwareForm\\NotepadForm.cs",
+              "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\SoftwareForm\\NotepadForm.cs",
               "RelativeDocumentMoniker": "NotepadForm.cs",
-              "ToolTip": "D:\\Priyanshu\\Csharp\\gui\\SoftwareForm\\NotepadForm.cs [Design]",
+              "ToolTip": "E:\\1GITHUB\\C#\\gui\\SoftwareForm\\NotepadForm.cs [Design]",
               "RelativeToolTip": "NotepadForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T03:43:20.441Z",
               "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 300,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
