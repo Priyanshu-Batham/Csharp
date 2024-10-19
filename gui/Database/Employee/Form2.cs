@@ -41,13 +41,39 @@ namespace Employee
 
             reader = sql.getEmployee(id);
 
-            textBox1.Text = reader["id"].ToString();
-            textBox2.Text = reader["email"].ToString();
-            textBox3.Text = reader["name"].ToString();
-            textBox4.Text = reader["address"].ToString();
-            textBox5.Text = reader["roll"].ToString();
+            if (reader.Read()) //this step is necessary as initially the reader points to null i.e. before the first record
+            {
+
+                textBox1.Text = reader["id"].ToString();
+                textBox2.Text = reader["email"].ToString();
+                textBox3.Text = reader["name"].ToString();
+                textBox4.Text = reader["address"].ToString();
+                textBox5.Text = reader["role"].ToString();
+            }
 
             sql.CloseConnection();
+            reader.Close();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(comboBox1.Text);
+            Sql sql = new Sql();
+
+            reader = sql.getEmployee(id);
+
+            if (reader.Read()) //this step is necessary as initially the reader points to null i.e. before the first record
+            {
+
+                textBox1.Text = reader["id"].ToString();
+                textBox2.Text = reader["email"].ToString();
+                textBox3.Text = reader["name"].ToString();
+                textBox4.Text = reader["address"].ToString();
+                textBox5.Text = reader["role"].ToString();
+            }
+
+            sql.CloseConnection();
+            reader.Close();
         }
     }
 }
