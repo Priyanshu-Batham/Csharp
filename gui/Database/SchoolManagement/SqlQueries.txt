@@ -1,0 +1,49 @@
+use SchoolManagement;
+
+CREATE TABLE Student
+(
+    id INT IDENTITY(1,1) PRIMARY KEY,  -- Id field is auto-incrementing(seed or start value, incrementing or step value)
+    name NVARCHAR(100) NOT NULL,
+    gender NVARCHAR(10),
+    address NVARCHAR(255),
+    phoneNo NVARCHAR(15) UNIQUE,
+    course NVARCHAR(50),
+    semester NVARCHAR(10),
+    email NVARCHAR(100) UNIQUE
+);
+
+drop table Student;
+
+CREATE TABLE Teacher
+(
+    id INT IDENTITY(1,1) PRIMARY KEY,  -- Id field is auto-incrementing(seed or start value, incrementing or step value)
+    name NVARCHAR(100) NOT NULL,
+    gender NVARCHAR(10),
+    address NVARCHAR(255),
+    phoneNo NVARCHAR(15) UNIQUE,
+	email NVARCHAR(40) UNIQUE,
+    subject NVARCHAR(100),
+    salary int,
+    department NVARCHAR(50),
+);
+
+drop table Teacher;
+
+CREATE TABLE Staff
+(
+    id INT IDENTITY(1,1) PRIMARY KEY,  -- Id field is auto-incrementing(seed or start value, incrementing or step value)
+    name NVARCHAR(100) NOT NULL,
+    gender NVARCHAR(10),
+    address NVARCHAR(255),
+    phoneNo NVARCHAR(15) UNIQUE,
+	email NVARCHAR(40) UNIQUE,
+    salary int,
+    department NVARCHAR(10),
+	role NVARCHAR(20)
+);
+
+drop table Staff;
+
+SELECT * FROM Student;
+SELECT * FROM Teacher;
+SELECT * FROM Staff;
