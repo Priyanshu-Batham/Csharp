@@ -204,6 +204,8 @@
             label84 = new Label();
             textBox48 = new TextBox();
             tabPage14 = new TabPage();
+            listBox17 = new ListBox();
+            label98 = new Label();
             listBox9 = new ListBox();
             label85 = new Label();
             listBox10 = new ListBox();
@@ -230,10 +232,72 @@
             tabPage8 = new TabPage();
             tabControl6 = new TabControl();
             tabPage15 = new TabPage();
+            label99 = new Label();
+            textBox49 = new TextBox();
+            textBox50 = new TextBox();
+            textBox51 = new TextBox();
+            textBox52 = new TextBox();
+            label100 = new Label();
+            textBox53 = new TextBox();
+            label101 = new Label();
+            button10 = new Button();
+            label102 = new Label();
+            textBox54 = new TextBox();
+            label103 = new Label();
+            label104 = new Label();
+            label105 = new Label();
+            textBox55 = new TextBox();
+            label106 = new Label();
+            textBox56 = new TextBox();
+            label107 = new Label();
+            label108 = new Label();
+            label109 = new Label();
+            textBox57 = new TextBox();
             tabPage16 = new TabPage();
+            label110 = new Label();
+            textBox58 = new TextBox();
+            textBox59 = new TextBox();
+            textBox60 = new TextBox();
+            textBox61 = new TextBox();
+            label111 = new Label();
+            textBox62 = new TextBox();
+            label112 = new Label();
+            button11 = new Button();
+            label113 = new Label();
+            textBox63 = new TextBox();
+            label114 = new Label();
+            label115 = new Label();
+            label116 = new Label();
+            textBox64 = new TextBox();
+            label117 = new Label();
+            textBox65 = new TextBox();
+            label118 = new Label();
+            label119 = new Label();
+            label120 = new Label();
+            textBox66 = new TextBox();
             tabPage17 = new TabPage();
-            listBox17 = new ListBox();
-            label98 = new Label();
+            listBox18 = new ListBox();
+            label121 = new Label();
+            listBox19 = new ListBox();
+            label122 = new Label();
+            listBox20 = new ListBox();
+            label123 = new Label();
+            listBox21 = new ListBox();
+            label124 = new Label();
+            listBox22 = new ListBox();
+            label125 = new Label();
+            listBox23 = new ListBox();
+            label126 = new Label();
+            listBox24 = new ListBox();
+            label127 = new Label();
+            listBox25 = new ListBox();
+            label128 = new Label();
+            listBox26 = new ListBox();
+            label129 = new Label();
+            comboBox12 = new ComboBox();
+            label130 = new Label();
+            button12 = new Button();
+            label131 = new Label();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabControl2.SuspendLayout();
@@ -254,6 +318,9 @@
             tabPage14.SuspendLayout();
             tabPage8.SuspendLayout();
             tabControl6.SuspendLayout();
+            tabPage15.SuspendLayout();
+            tabPage16.SuspendLayout();
+            tabPage17.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
@@ -1976,6 +2043,24 @@
             tabPage14.Text = "By Department";
             tabPage14.UseVisualStyleBackColor = true;
             // 
+            // listBox17
+            // 
+            listBox17.FormattingEnabled = true;
+            listBox17.ItemHeight = 15;
+            listBox17.Location = new Point(706, 170);
+            listBox17.Name = "listBox17";
+            listBox17.Size = new Size(87, 184);
+            listBox17.TabIndex = 119;
+            // 
+            // label98
+            // 
+            label98.AutoSize = true;
+            label98.Location = new Point(706, 152);
+            label98.Name = "label98";
+            label98.Size = new Size(70, 15);
+            label98.TabIndex = 118;
+            label98.Text = "Department";
+            // 
             // listBox9
             // 
             listBox9.FormattingEnabled = true;
@@ -2204,6 +2289,27 @@
             // 
             // tabPage15
             // 
+            tabPage15.Controls.Add(label99);
+            tabPage15.Controls.Add(textBox49);
+            tabPage15.Controls.Add(textBox50);
+            tabPage15.Controls.Add(textBox51);
+            tabPage15.Controls.Add(textBox52);
+            tabPage15.Controls.Add(label100);
+            tabPage15.Controls.Add(textBox53);
+            tabPage15.Controls.Add(label101);
+            tabPage15.Controls.Add(button10);
+            tabPage15.Controls.Add(label102);
+            tabPage15.Controls.Add(textBox54);
+            tabPage15.Controls.Add(label103);
+            tabPage15.Controls.Add(label104);
+            tabPage15.Controls.Add(label105);
+            tabPage15.Controls.Add(textBox55);
+            tabPage15.Controls.Add(label106);
+            tabPage15.Controls.Add(textBox56);
+            tabPage15.Controls.Add(label107);
+            tabPage15.Controls.Add(label108);
+            tabPage15.Controls.Add(label109);
+            tabPage15.Controls.Add(textBox57);
             tabPage15.Location = new Point(4, 24);
             tabPage15.Name = "tabPage15";
             tabPage15.Padding = new Padding(3);
@@ -2212,8 +2318,209 @@
             tabPage15.Text = "By Id";
             tabPage15.UseVisualStyleBackColor = true;
             // 
+            // label99
+            // 
+            label99.AutoSize = true;
+            label99.Location = new Point(403, 231);
+            label99.Name = "label99";
+            label99.Size = new Size(70, 15);
+            label99.TabIndex = 81;
+            label99.Text = "Department";
+            // 
+            // textBox49
+            // 
+            textBox49.Location = new Point(479, 228);
+            textBox49.Name = "textBox49";
+            textBox49.ReadOnly = true;
+            textBox49.Size = new Size(121, 23);
+            textBox49.TabIndex = 80;
+            // 
+            // textBox50
+            // 
+            textBox50.Location = new Point(479, 257);
+            textBox50.Name = "textBox50";
+            textBox50.ReadOnly = true;
+            textBox50.Size = new Size(121, 23);
+            textBox50.TabIndex = 79;
+            // 
+            // textBox51
+            // 
+            textBox51.Location = new Point(479, 170);
+            textBox51.Name = "textBox51";
+            textBox51.ReadOnly = true;
+            textBox51.Size = new Size(121, 23);
+            textBox51.TabIndex = 78;
+            // 
+            // textBox52
+            // 
+            textBox52.Location = new Point(479, 86);
+            textBox52.Name = "textBox52";
+            textBox52.ReadOnly = true;
+            textBox52.Size = new Size(121, 23);
+            textBox52.TabIndex = 77;
+            // 
+            // label100
+            // 
+            label100.AutoSize = true;
+            label100.Location = new Point(189, 158);
+            label100.Name = "label100";
+            label100.Size = new Size(17, 15);
+            label100.TabIndex = 76;
+            label100.Text = "Id";
+            // 
+            // textBox53
+            // 
+            textBox53.Location = new Point(212, 152);
+            textBox53.Name = "textBox53";
+            textBox53.Size = new Size(121, 23);
+            textBox53.TabIndex = 75;
+            // 
+            // label101
+            // 
+            label101.AutoSize = true;
+            label101.Location = new Point(283, 338);
+            label101.Name = "label101";
+            label101.Size = new Size(0, 15);
+            label101.TabIndex = 74;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(282, 292);
+            button10.Name = "button10";
+            button10.Size = new Size(177, 37);
+            button10.TabIndex = 73;
+            button10.Text = "Search";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
+            // 
+            // label102
+            // 
+            label102.AutoSize = true;
+            label102.Location = new Point(423, 202);
+            label102.Name = "label102";
+            label102.Size = new Size(38, 15);
+            label102.TabIndex = 72;
+            label102.Text = "Salary";
+            // 
+            // textBox54
+            // 
+            textBox54.Location = new Point(479, 199);
+            textBox54.Name = "textBox54";
+            textBox54.ReadOnly = true;
+            textBox54.Size = new Size(121, 23);
+            textBox54.TabIndex = 71;
+            // 
+            // label103
+            // 
+            label103.AutoSize = true;
+            label103.Location = new Point(423, 260);
+            label103.Name = "label103";
+            label103.Size = new Size(30, 15);
+            label103.TabIndex = 70;
+            label103.Text = "Role";
+            // 
+            // label104
+            // 
+            label104.AutoSize = true;
+            label104.Location = new Point(423, 173);
+            label104.Name = "label104";
+            label104.Size = new Size(36, 15);
+            label104.TabIndex = 69;
+            label104.Text = "Email";
+            // 
+            // label105
+            // 
+            label105.AutoSize = true;
+            label105.Location = new Point(423, 145);
+            label105.Name = "label105";
+            label105.Size = new Size(40, 15);
+            label105.TabIndex = 68;
+            label105.Text = "Ph.No";
+            // 
+            // textBox55
+            // 
+            textBox55.Location = new Point(479, 140);
+            textBox55.Name = "textBox55";
+            textBox55.ReadOnly = true;
+            textBox55.Size = new Size(121, 23);
+            textBox55.TabIndex = 67;
+            // 
+            // label106
+            // 
+            label106.AutoSize = true;
+            label106.Location = new Point(423, 116);
+            label106.Name = "label106";
+            label106.Size = new Size(49, 15);
+            label106.TabIndex = 66;
+            label106.Text = "Address";
+            // 
+            // textBox56
+            // 
+            textBox56.Location = new Point(479, 111);
+            textBox56.Name = "textBox56";
+            textBox56.ReadOnly = true;
+            textBox56.Size = new Size(121, 23);
+            textBox56.TabIndex = 65;
+            // 
+            // label107
+            // 
+            label107.AutoSize = true;
+            label107.Location = new Point(423, 86);
+            label107.Name = "label107";
+            label107.Size = new Size(45, 15);
+            label107.TabIndex = 64;
+            label107.Text = "Gender";
+            // 
+            // label108
+            // 
+            label108.AutoSize = true;
+            label108.Location = new Point(423, 56);
+            label108.Name = "label108";
+            label108.Size = new Size(39, 15);
+            label108.TabIndex = 63;
+            label108.Text = "Name";
+            // 
+            // label109
+            // 
+            label109.AutoSize = true;
+            label109.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label109.Location = new Point(282, 18);
+            label109.Name = "label109";
+            label109.Size = new Size(213, 32);
+            label109.TabIndex = 62;
+            label109.Text = "Search Staff By Id";
+            // 
+            // textBox57
+            // 
+            textBox57.Location = new Point(479, 53);
+            textBox57.Name = "textBox57";
+            textBox57.ReadOnly = true;
+            textBox57.Size = new Size(121, 23);
+            textBox57.TabIndex = 61;
+            // 
             // tabPage16
             // 
+            tabPage16.Controls.Add(label110);
+            tabPage16.Controls.Add(textBox58);
+            tabPage16.Controls.Add(textBox59);
+            tabPage16.Controls.Add(textBox60);
+            tabPage16.Controls.Add(textBox61);
+            tabPage16.Controls.Add(label111);
+            tabPage16.Controls.Add(textBox62);
+            tabPage16.Controls.Add(label112);
+            tabPage16.Controls.Add(button11);
+            tabPage16.Controls.Add(label113);
+            tabPage16.Controls.Add(textBox63);
+            tabPage16.Controls.Add(label114);
+            tabPage16.Controls.Add(label115);
+            tabPage16.Controls.Add(label116);
+            tabPage16.Controls.Add(textBox64);
+            tabPage16.Controls.Add(label117);
+            tabPage16.Controls.Add(textBox65);
+            tabPage16.Controls.Add(label118);
+            tabPage16.Controls.Add(label119);
+            tabPage16.Controls.Add(label120);
+            tabPage16.Controls.Add(textBox66);
             tabPage16.Location = new Point(4, 24);
             tabPage16.Name = "tabPage16";
             tabPage16.Padding = new Padding(3);
@@ -2222,32 +2529,415 @@
             tabPage16.Text = "By Name";
             tabPage16.UseVisualStyleBackColor = true;
             // 
+            // label110
+            // 
+            label110.AutoSize = true;
+            label110.Location = new Point(403, 231);
+            label110.Name = "label110";
+            label110.Size = new Size(70, 15);
+            label110.TabIndex = 102;
+            label110.Text = "Department";
+            // 
+            // textBox58
+            // 
+            textBox58.Location = new Point(479, 228);
+            textBox58.Name = "textBox58";
+            textBox58.ReadOnly = true;
+            textBox58.Size = new Size(121, 23);
+            textBox58.TabIndex = 101;
+            // 
+            // textBox59
+            // 
+            textBox59.Location = new Point(479, 257);
+            textBox59.Name = "textBox59";
+            textBox59.ReadOnly = true;
+            textBox59.Size = new Size(121, 23);
+            textBox59.TabIndex = 100;
+            // 
+            // textBox60
+            // 
+            textBox60.Location = new Point(479, 170);
+            textBox60.Name = "textBox60";
+            textBox60.ReadOnly = true;
+            textBox60.Size = new Size(121, 23);
+            textBox60.TabIndex = 99;
+            // 
+            // textBox61
+            // 
+            textBox61.Location = new Point(479, 86);
+            textBox61.Name = "textBox61";
+            textBox61.ReadOnly = true;
+            textBox61.Size = new Size(121, 23);
+            textBox61.TabIndex = 98;
+            // 
+            // label111
+            // 
+            label111.AutoSize = true;
+            label111.Location = new Point(167, 155);
+            label111.Name = "label111";
+            label111.Size = new Size(39, 15);
+            label111.TabIndex = 97;
+            label111.Text = "Name";
+            // 
+            // textBox62
+            // 
+            textBox62.Location = new Point(212, 152);
+            textBox62.Name = "textBox62";
+            textBox62.Size = new Size(121, 23);
+            textBox62.TabIndex = 96;
+            // 
+            // label112
+            // 
+            label112.AutoSize = true;
+            label112.Location = new Point(283, 338);
+            label112.Name = "label112";
+            label112.Size = new Size(0, 15);
+            label112.TabIndex = 95;
+            // 
+            // button11
+            // 
+            button11.Location = new Point(282, 292);
+            button11.Name = "button11";
+            button11.Size = new Size(177, 37);
+            button11.TabIndex = 94;
+            button11.Text = "Search";
+            button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
+            // 
+            // label113
+            // 
+            label113.AutoSize = true;
+            label113.Location = new Point(423, 202);
+            label113.Name = "label113";
+            label113.Size = new Size(38, 15);
+            label113.TabIndex = 93;
+            label113.Text = "Salary";
+            // 
+            // textBox63
+            // 
+            textBox63.Location = new Point(479, 199);
+            textBox63.Name = "textBox63";
+            textBox63.ReadOnly = true;
+            textBox63.Size = new Size(121, 23);
+            textBox63.TabIndex = 92;
+            // 
+            // label114
+            // 
+            label114.AutoSize = true;
+            label114.Location = new Point(423, 260);
+            label114.Name = "label114";
+            label114.Size = new Size(30, 15);
+            label114.TabIndex = 91;
+            label114.Text = "Role";
+            // 
+            // label115
+            // 
+            label115.AutoSize = true;
+            label115.Location = new Point(423, 173);
+            label115.Name = "label115";
+            label115.Size = new Size(36, 15);
+            label115.TabIndex = 90;
+            label115.Text = "Email";
+            // 
+            // label116
+            // 
+            label116.AutoSize = true;
+            label116.Location = new Point(423, 145);
+            label116.Name = "label116";
+            label116.Size = new Size(40, 15);
+            label116.TabIndex = 89;
+            label116.Text = "Ph.No";
+            // 
+            // textBox64
+            // 
+            textBox64.Location = new Point(479, 140);
+            textBox64.Name = "textBox64";
+            textBox64.ReadOnly = true;
+            textBox64.Size = new Size(121, 23);
+            textBox64.TabIndex = 88;
+            // 
+            // label117
+            // 
+            label117.AutoSize = true;
+            label117.Location = new Point(423, 116);
+            label117.Name = "label117";
+            label117.Size = new Size(49, 15);
+            label117.TabIndex = 87;
+            label117.Text = "Address";
+            // 
+            // textBox65
+            // 
+            textBox65.Location = new Point(479, 111);
+            textBox65.Name = "textBox65";
+            textBox65.ReadOnly = true;
+            textBox65.Size = new Size(121, 23);
+            textBox65.TabIndex = 86;
+            // 
+            // label118
+            // 
+            label118.AutoSize = true;
+            label118.Location = new Point(423, 86);
+            label118.Name = "label118";
+            label118.Size = new Size(45, 15);
+            label118.TabIndex = 85;
+            label118.Text = "Gender";
+            // 
+            // label119
+            // 
+            label119.AutoSize = true;
+            label119.Location = new Point(423, 56);
+            label119.Name = "label119";
+            label119.Size = new Size(17, 15);
+            label119.TabIndex = 84;
+            label119.Text = "Id";
+            // 
+            // label120
+            // 
+            label120.AutoSize = true;
+            label120.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label120.Location = new Point(258, 18);
+            label120.Name = "label120";
+            label120.Size = new Size(257, 32);
+            label120.TabIndex = 83;
+            label120.Text = "Search Staff By Name";
+            // 
+            // textBox66
+            // 
+            textBox66.Location = new Point(479, 53);
+            textBox66.Name = "textBox66";
+            textBox66.ReadOnly = true;
+            textBox66.Size = new Size(121, 23);
+            textBox66.TabIndex = 82;
+            // 
             // tabPage17
             // 
+            tabPage17.Controls.Add(listBox18);
+            tabPage17.Controls.Add(label121);
+            tabPage17.Controls.Add(listBox19);
+            tabPage17.Controls.Add(label122);
+            tabPage17.Controls.Add(listBox20);
+            tabPage17.Controls.Add(label123);
+            tabPage17.Controls.Add(listBox21);
+            tabPage17.Controls.Add(label124);
+            tabPage17.Controls.Add(listBox22);
+            tabPage17.Controls.Add(label125);
+            tabPage17.Controls.Add(listBox23);
+            tabPage17.Controls.Add(label126);
+            tabPage17.Controls.Add(listBox24);
+            tabPage17.Controls.Add(label127);
+            tabPage17.Controls.Add(listBox25);
+            tabPage17.Controls.Add(label128);
+            tabPage17.Controls.Add(listBox26);
+            tabPage17.Controls.Add(label129);
+            tabPage17.Controls.Add(comboBox12);
+            tabPage17.Controls.Add(label130);
+            tabPage17.Controls.Add(button12);
+            tabPage17.Controls.Add(label131);
             tabPage17.Location = new Point(4, 24);
             tabPage17.Name = "tabPage17";
             tabPage17.Size = new Size(789, 371);
             tabPage17.TabIndex = 2;
-            tabPage17.Text = "By Department";
+            tabPage17.Text = "By Role";
             tabPage17.UseVisualStyleBackColor = true;
             // 
-            // listBox17
+            // listBox18
             // 
-            listBox17.FormattingEnabled = true;
-            listBox17.ItemHeight = 15;
-            listBox17.Location = new Point(706, 170);
-            listBox17.Name = "listBox17";
-            listBox17.Size = new Size(87, 184);
-            listBox17.TabIndex = 119;
+            listBox18.FormattingEnabled = true;
+            listBox18.ItemHeight = 15;
+            listBox18.Location = new Point(701, 171);
+            listBox18.Name = "listBox18";
+            listBox18.Size = new Size(87, 184);
+            listBox18.TabIndex = 141;
             // 
-            // label98
+            // label121
             // 
-            label98.AutoSize = true;
-            label98.Location = new Point(706, 152);
-            label98.Name = "label98";
-            label98.Size = new Size(70, 15);
-            label98.TabIndex = 118;
-            label98.Text = "Department";
+            label121.AutoSize = true;
+            label121.Location = new Point(701, 153);
+            label121.Name = "label121";
+            label121.Size = new Size(30, 15);
+            label121.TabIndex = 140;
+            label121.Text = "Role";
+            // 
+            // listBox19
+            // 
+            listBox19.FormattingEnabled = true;
+            listBox19.ItemHeight = 15;
+            listBox19.Location = new Point(416, 171);
+            listBox19.Name = "listBox19";
+            listBox19.Size = new Size(117, 184);
+            listBox19.TabIndex = 139;
+            // 
+            // label122
+            // 
+            label122.AutoSize = true;
+            label122.Location = new Point(416, 153);
+            label122.Name = "label122";
+            label122.Size = new Size(36, 15);
+            label122.TabIndex = 138;
+            label122.Text = "Email";
+            // 
+            // listBox20
+            // 
+            listBox20.FormattingEnabled = true;
+            listBox20.ItemHeight = 15;
+            listBox20.Location = new Point(614, 171);
+            listBox20.Name = "listBox20";
+            listBox20.Size = new Size(87, 184);
+            listBox20.TabIndex = 137;
+            // 
+            // label123
+            // 
+            label123.AutoSize = true;
+            label123.Location = new Point(614, 153);
+            label123.Name = "label123";
+            label123.Size = new Size(70, 15);
+            label123.TabIndex = 136;
+            label123.Text = "Department";
+            // 
+            // listBox21
+            // 
+            listBox21.FormattingEnabled = true;
+            listBox21.ItemHeight = 15;
+            listBox21.Location = new Point(534, 171);
+            listBox21.Name = "listBox21";
+            listBox21.Size = new Size(79, 184);
+            listBox21.TabIndex = 135;
+            // 
+            // label124
+            // 
+            label124.AutoSize = true;
+            label124.Location = new Point(534, 155);
+            label124.Name = "label124";
+            label124.Size = new Size(38, 15);
+            label124.TabIndex = 134;
+            label124.Text = "Salary";
+            // 
+            // listBox22
+            // 
+            listBox22.FormattingEnabled = true;
+            listBox22.ItemHeight = 15;
+            listBox22.Location = new Point(298, 171);
+            listBox22.Name = "listBox22";
+            listBox22.Size = new Size(117, 184);
+            listBox22.TabIndex = 133;
+            // 
+            // label125
+            // 
+            label125.AutoSize = true;
+            label125.Location = new Point(298, 153);
+            label125.Name = "label125";
+            label125.Size = new Size(60, 15);
+            label125.TabIndex = 132;
+            label125.Text = "Phone No";
+            // 
+            // listBox23
+            // 
+            listBox23.FormattingEnabled = true;
+            listBox23.ItemHeight = 15;
+            listBox23.Location = new Point(180, 171);
+            listBox23.Name = "listBox23";
+            listBox23.Size = new Size(117, 184);
+            listBox23.TabIndex = 131;
+            // 
+            // label126
+            // 
+            label126.AutoSize = true;
+            label126.Location = new Point(180, 155);
+            label126.Name = "label126";
+            label126.Size = new Size(49, 15);
+            label126.TabIndex = 130;
+            label126.Text = "Address";
+            // 
+            // listBox24
+            // 
+            listBox24.FormattingEnabled = true;
+            listBox24.ItemHeight = 15;
+            listBox24.Location = new Point(122, 171);
+            listBox24.Name = "listBox24";
+            listBox24.Size = new Size(58, 184);
+            listBox24.TabIndex = 129;
+            // 
+            // label127
+            // 
+            label127.AutoSize = true;
+            label127.Location = new Point(122, 153);
+            label127.Name = "label127";
+            label127.Size = new Size(45, 15);
+            label127.TabIndex = 128;
+            label127.Text = "Gender";
+            // 
+            // listBox25
+            // 
+            listBox25.FormattingEnabled = true;
+            listBox25.ItemHeight = 15;
+            listBox25.Location = new Point(35, 171);
+            listBox25.Name = "listBox25";
+            listBox25.Size = new Size(86, 184);
+            listBox25.TabIndex = 127;
+            // 
+            // label128
+            // 
+            label128.AutoSize = true;
+            label128.Location = new Point(35, 153);
+            label128.Name = "label128";
+            label128.Size = new Size(39, 15);
+            label128.TabIndex = 126;
+            label128.Text = "Name";
+            // 
+            // listBox26
+            // 
+            listBox26.FormattingEnabled = true;
+            listBox26.ItemHeight = 15;
+            listBox26.Location = new Point(1, 171);
+            listBox26.Name = "listBox26";
+            listBox26.Size = new Size(34, 184);
+            listBox26.TabIndex = 125;
+            // 
+            // label129
+            // 
+            label129.AutoSize = true;
+            label129.Location = new Point(1, 153);
+            label129.Name = "label129";
+            label129.Size = new Size(17, 15);
+            label129.TabIndex = 124;
+            label129.Text = "Id";
+            // 
+            // comboBox12
+            // 
+            comboBox12.FormattingEnabled = true;
+            comboBox12.Location = new Point(360, 60);
+            comboBox12.Name = "comboBox12";
+            comboBox12.Size = new Size(121, 23);
+            comboBox12.TabIndex = 123;
+            // 
+            // label130
+            // 
+            label130.AutoSize = true;
+            label130.Location = new Point(324, 63);
+            label130.Name = "label130";
+            label130.Size = new Size(30, 15);
+            label130.TabIndex = 122;
+            label130.Text = "Role";
+            // 
+            // button12
+            // 
+            button12.Location = new Point(310, 89);
+            button12.Name = "button12";
+            button12.Size = new Size(177, 37);
+            button12.TabIndex = 121;
+            button12.Text = "Search";
+            button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
+            // 
+            // label131
+            // 
+            label131.AutoSize = true;
+            label131.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label131.Location = new Point(293, 15);
+            label131.Name = "label131";
+            label131.Size = new Size(240, 32);
+            label131.TabIndex = 120;
+            label131.Text = "Search Staff By Role";
             // 
             // Form2
             // 
@@ -2287,6 +2977,12 @@
             tabPage14.PerformLayout();
             tabPage8.ResumeLayout(false);
             tabControl6.ResumeLayout(false);
+            tabPage15.ResumeLayout(false);
+            tabPage15.PerformLayout();
+            tabPage16.ResumeLayout(false);
+            tabPage16.PerformLayout();
+            tabPage17.ResumeLayout(false);
+            tabPage17.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -2498,5 +3194,69 @@
         private Label label97;
         private ListBox listBox17;
         private Label label98;
+        private Label label99;
+        private TextBox textBox49;
+        private TextBox textBox50;
+        private TextBox textBox51;
+        private TextBox textBox52;
+        private Label label100;
+        private TextBox textBox53;
+        private Label label101;
+        private Button button10;
+        private Label label102;
+        private TextBox textBox54;
+        private Label label103;
+        private Label label104;
+        private Label label105;
+        private TextBox textBox55;
+        private Label label106;
+        private TextBox textBox56;
+        private Label label107;
+        private Label label108;
+        private Label label109;
+        private TextBox textBox57;
+        private Label label110;
+        private TextBox textBox58;
+        private TextBox textBox59;
+        private TextBox textBox60;
+        private TextBox textBox61;
+        private Label label111;
+        private TextBox textBox62;
+        private Label label112;
+        private Button button11;
+        private Label label113;
+        private TextBox textBox63;
+        private Label label114;
+        private Label label115;
+        private Label label116;
+        private TextBox textBox64;
+        private Label label117;
+        private TextBox textBox65;
+        private Label label118;
+        private Label label119;
+        private Label label120;
+        private TextBox textBox66;
+        private ListBox listBox18;
+        private Label label121;
+        private ListBox listBox19;
+        private Label label122;
+        private ListBox listBox20;
+        private Label label123;
+        private ListBox listBox21;
+        private Label label124;
+        private ListBox listBox22;
+        private Label label125;
+        private ListBox listBox23;
+        private Label label126;
+        private ListBox listBox24;
+        private Label label127;
+        private ListBox listBox25;
+        private Label label128;
+        private ListBox listBox26;
+        private Label label129;
+        private ComboBox comboBox12;
+        private Label label130;
+        private Button button12;
+        private Label label131;
     }
 }

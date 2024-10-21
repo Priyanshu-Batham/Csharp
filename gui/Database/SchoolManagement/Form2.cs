@@ -59,6 +59,7 @@ namespace SchoolManagement
             foreach (var item in Enum.GetValues(typeof(Role)))
             {
                 comboBox8.Items.Add(item);
+                comboBox12.Items.Add(item);
             }
 
         }
@@ -347,6 +348,100 @@ namespace SchoolManagement
                     listBox11.Items.Add(teacher.subject.ToString());
                     listBox10.Items.Add(teacher.email);
                     listBox17.Items.Add(teacher.department.ToString());
+
+                }
+            }
+            catch (Exception ex)
+            {
+                //am not making any label for errors here since it will be fully under control
+            }
+        }
+
+        //search staff by id
+        private void button10_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int id = Convert.ToInt32(textBox53.Text);
+
+                Sql sql = new Sql();
+                Staff? staff = sql.getStaff(id);
+                if (staff == null) throw new ValidationError("No Staff Found");
+
+                textBox57.Text = staff.name;
+                textBox52.Text = staff.gender.ToString();
+                textBox56.Text = staff.address;
+                textBox55.Text = staff.phoneNo.ToString();
+                textBox51.Text = staff.email;
+                textBox54.Text = staff.salary.ToString();
+                textBox49.Text = staff.department.ToString();
+                textBox50.Text = staff.role.ToString();
+            }
+            catch (Exception ex)
+            {
+                label101.Text = ex.Message;
+            }
+        }
+
+        //search staff by Name
+        private void button11_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string name = textBox62.Text;
+
+                Sql sql = new Sql();
+                Staff? staff = sql.getStaff(name);
+                if (staff == null) throw new ValidationError("No Staff Found");
+
+                textBox66.Text = staff.id;
+                textBox61.Text = staff.gender.ToString();
+                textBox65.Text = staff.address;
+                textBox64.Text = staff.phoneNo.ToString();
+                textBox60.Text = staff.email;
+                textBox63.Text = staff.salary.ToString();
+                textBox58.Text = staff.department.ToString();
+                textBox59.Text = staff.role.ToString();
+            }
+            catch (Exception ex)
+            {
+                label112.Text = ex.Message;
+            }
+        }
+
+        //search staff by role
+        private void button12_Click(object sender, EventArgs e)
+        {
+            //clearing the results initially
+            listBox26.Items.Clear();
+            listBox25.Items.Clear();
+            listBox24.Items.Clear();
+            listBox23.Items.Clear();
+            listBox22.Items.Clear();
+            listBox19.Items.Clear();
+            listBox21.Items.Clear();
+            listBox20.Items.Clear();
+            listBox18.Items.Clear();
+            try
+            {
+                Role role = (Role)Enum.Parse(typeof(Role), comboBox12.Text);
+
+                Sql sql = new Sql();
+                List<Staff>? staffs = sql.getStaff(role);
+
+                if (staffs == null) return;
+
+                foreach (Staff staff in staffs)
+                {
+                    listBox26.Items.Add(staff.id!);
+                    listBox25.Items.Add(staff.name);
+                    listBox24.Items.Add(staff.gender.ToString());
+                    listBox23.Items.Add(staff.address);
+                    listBox22.Items.Add(staff.phoneNo.ToString());
+                    listBox19.Items.Add(staff.email);
+                    listBox21.Items.Add(staff.salary.ToString());
+                    listBox20.Items.Add(staff.department.ToString());
+                    listBox18.Items.Add(staff.role.ToString());
 
                 }
             }
