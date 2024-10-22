@@ -67,6 +67,7 @@
             // 
             textBox2.Location = new Point(385, 193);
             textBox2.Name = "textBox2";
+            textBox2.PasswordChar = '*';
             textBox2.Size = new Size(100, 23);
             textBox2.TabIndex = 4;
             // 
@@ -111,7 +112,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Admin Login";
             ResumeLayout(false);
             PerformLayout();
         }

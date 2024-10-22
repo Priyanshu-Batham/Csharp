@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "E:\\1GITHUB\\C#\\gui\\Database\\SchoolManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B16DFBC-CCF8-40D1-A0C5-78372666BA4E}|SchoolManagement.csproj|e:\\1github\\c#\\gui\\database\\schoolmanagement\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B16DFBC-CCF8-40D1-A0C5-78372666BA4E}|SchoolManagement.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B16DFBC-CCF8-40D1-A0C5-78372666BA4E}|SchoolManagement.csproj|e:\\1github\\c#\\gui\\database\\schoolmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B16DFBC-CCF8-40D1-A0C5-78372666BA4E}|SchoolManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B16DFBC-CCF8-40D1-A0C5-78372666BA4E}|SchoolManagement.csproj|e:\\1github\\c#\\gui\\database\\schoolmanagement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B16DFBC-CCF8-40D1-A0C5-78372666BA4E}|SchoolManagement.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B16DFBC-CCF8-40D1-A0C5-78372666BA4E}|SchoolManagement.csproj|e:\\1github\\c#\\gui\\database\\schoolmanagement\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B16DFBC-CCF8-40D1-A0C5-78372666BA4E}|SchoolManagement.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B16DFBC-CCF8-40D1-A0C5-78372666BA4E}|SchoolManagement.csproj|e:\\1github\\c#\\gui\\database\\schoolmanagement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B16DFBC-CCF8-40D1-A0C5-78372666BA4E}|SchoolManagement.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B16DFBC-CCF8-40D1-A0C5-78372666BA4E}|SchoolManagement.csproj|e:\\1github\\c#\\gui\\database\\schoolmanagement\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B16DFBC-CCF8-40D1-A0C5-78372666BA4E}|SchoolManagement.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B16DFBC-CCF8-40D1-A0C5-78372666BA4E}|SchoolManagement.csproj|E:\\1GITHUB\\C#\\gui\\Database\\SchoolManagement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 904,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,79 +42,61 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\Database\\SchoolManagement\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\1GITHUB\\C#\\gui\\Database\\SchoolManagement\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T06:12:06.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\Database\\SchoolManagement\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "E:\\1GITHUB\\C#\\gui\\Database\\SchoolManagement\\Form2.cs [Design]",
               "RelativeToolTip": "Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T12:14:14.385Z",
+              "WhenOpened": "2024-10-22T16:04:22.904Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form2.cs",
               "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\Database\\SchoolManagement\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "E:\\1GITHUB\\C#\\gui\\Database\\SchoolManagement\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAKoBAAAAAAAAAAAYwLkBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T12:23:45.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\Database\\SchoolManagement\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "E:\\1GITHUB\\C#\\gui\\Database\\SchoolManagement\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABUBAAAAAAAAAAAAAHUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T12:58:15.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "E:\\1GITHUB\\C#\\gui\\Database\\SchoolManagement\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "E:\\1GITHUB\\C#\\gui\\Database\\SchoolManagement\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T12:57:35.37Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 529,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2024-10-19T12:57:35.37Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

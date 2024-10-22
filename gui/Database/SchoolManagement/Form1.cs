@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 
 namespace SchoolManagement
 {
@@ -33,29 +34,32 @@ namespace SchoolManagement
             conn = new SqlConnection(_connString);
         }
 
-        public void createStudent(Student student)
+        public int createStudent(Student student)
         {
-            string query = $"insert into Student (name, gender, address, phoneNo, course, semester, email) values ('{student.name}', '{student.gender.ToString()}', '{student.address}', '{student.phoneNo}', '{student.course.ToString()}', '{student.semester.ToString()}', '{student.email}');";
+            string query = $"insert into Student (name, gender, address, phoneNo, course, semester, email) values ('{student.name}', '{student.gender.ToString()}', '{student.address}', '{student.phoneNo}', '{student.course.ToString()}', '{student.semester.ToString()}', '{student.email}');" + "SELECT SCOPE_IDENTITY();";
             SqlCommand cmd = new SqlCommand(query, conn);
             conn.Open();
-            cmd.ExecuteNonQuery();
+            int id = Convert.ToInt32(cmd.ExecuteScalar());
             conn.Close();
+            return id;
         }
-        public void createTeacher(Teacher teacher)
+        public int createTeacher(Teacher teacher)
         {
-            string query = $"insert into Teacher (name, gender, address, phoneNo, email, subject, salary, department) values ('{teacher.name}', '{teacher.gender.ToString()}', '{teacher.address}', '{teacher.phoneNo}', '{teacher.email}', '{teacher.subject.ToString()}', {teacher.salary}, '{teacher.department.ToString()}');";
+            string query = $"insert into Teacher (name, gender, address, phoneNo, email, subject, salary, department) values ('{teacher.name}', '{teacher.gender.ToString()}', '{teacher.address}', '{teacher.phoneNo}', '{teacher.email}', '{teacher.subject.ToString()}', {teacher.salary}, '{teacher.department.ToString()}');" + "SELECT SCOPE_IDENTITY();";
             SqlCommand cmd = new SqlCommand(query, conn);
             conn.Open();
-            cmd.ExecuteNonQuery();
+            int id = Convert.ToInt32(cmd.ExecuteScalar());
             conn.Close();
+            return id;
         }
-        public void createStaff(Staff staff)
+        public int createStaff(Staff staff)
         {
-            string query = $"insert into staff (name, gender, address, phoneNo, email, salary, department, role) values ('{staff.name}', '{staff.gender.ToString()}', '{staff.address}', '{staff.phoneNo}', '{staff.email}', {staff.salary}, '{staff.department.ToString()}', '{staff.role.ToString()}');";
+            string query = $"insert into staff (name, gender, address, phoneNo, email, salary, department, role) values ('{staff.name}', '{staff.gender.ToString()}', '{staff.address}', '{staff.phoneNo}', '{staff.email}', {staff.salary}, '{staff.department.ToString()}', '{staff.role.ToString()}');" + "SELECT SCOPE_IDENTITY();";
             SqlCommand cmd = new SqlCommand(query, conn);
             conn.Open();
-            cmd.ExecuteNonQuery();
+            int id = Convert.ToInt32(cmd.ExecuteScalar());
             conn.Close();
+            return id;
         }
 
         //overloaded functions for getStudent
@@ -85,26 +89,30 @@ namespace SchoolManagement
             else return null;
         }
         //overload 2
-        public Student? getStudent(String name)
+        public List<Student>? getStudent(String name)
         {
+            List<Student> students = new List<Student>();
             string query = $"select * from Student where name = '{name}';";
             SqlCommand cmd = new SqlCommand (query, conn);
             conn.Open();
             SqlDataReader dataReader = cmd.ExecuteReader();
             if (dataReader.HasRows)
             {
-                dataReader.Read();
-                string id = dataReader["id"].ToString()!;
-                Gender gender = (Gender) Enum.Parse(typeof(Gender), dataReader["gender"].ToString()!);
-                string address = dataReader["address"].ToString()!;
-                string phoneNo = dataReader["phoneNo"].ToString()!;
-                Course course = (Course)Enum.Parse(typeof(Course), dataReader["course"].ToString()!);
-                Semester semester = (Semester)Enum.Parse(typeof(Semester), dataReader["semester"].ToString()!);
-                string email = dataReader["email"].ToString()!;
+                while (dataReader.Read())
+                {
+                    string id = dataReader["id"].ToString()!;
+                    Gender gender = (Gender)Enum.Parse(typeof(Gender), dataReader["gender"].ToString()!);
+                    string address = dataReader["address"].ToString()!;
+                    string phoneNo = dataReader["phoneNo"].ToString()!;
+                    Course course = (Course)Enum.Parse(typeof(Course), dataReader["course"].ToString()!);
+                    Semester semester = (Semester)Enum.Parse(typeof(Semester), dataReader["semester"].ToString()!);
+                    string email = dataReader["email"].ToString()!;
 
-                Student student = new Student(name!, gender, address!, phoneNo!, course, semester, email!);
-                student.id = id.ToString();
-                return student;
+                    Student student = new Student(name!, gender, address!, phoneNo!, course, semester, email!);
+                    student.id = id.ToString();
+                    students.Add(student);
+                }
+                return students;
 
             }
             else return null;
@@ -168,27 +176,31 @@ namespace SchoolManagement
             else return null;
         }
         //overload 2
-        public Teacher? getTeacher(String name)
+        public List<Teacher>? getTeacher(String name)
         {
+            List<Teacher> teachers = new List<Teacher>();
             string query = $"select * from Teacher where name = '{name}';";
             SqlCommand cmd = new SqlCommand(query, conn);
             conn.Open();
             SqlDataReader dataReader = cmd.ExecuteReader();
             if (dataReader.HasRows)
             {
-                dataReader.Read();
-                int id = Convert.ToInt32(dataReader["id"]);
-                Gender gender = (Gender)Enum.Parse(typeof(Gender), dataReader["gender"].ToString()!);
-                string address = dataReader["address"].ToString()!;
-                string phoneNo = dataReader["phoneNo"].ToString()!;
-                string email = dataReader["email"].ToString()!;
-                Subject subject = (Subject)Enum.Parse(typeof(Subject), dataReader["subject"].ToString()!);
-                int salary = Convert.ToInt32(dataReader["salary"]);
-                Department department = (Department)Enum.Parse(typeof(Department), dataReader["department"].ToString()!);
+                while (dataReader.Read())
+                {
+                    int id = Convert.ToInt32(dataReader["id"]);
+                    Gender gender = (Gender)Enum.Parse(typeof(Gender), dataReader["gender"].ToString()!);
+                    string address = dataReader["address"].ToString()!;
+                    string phoneNo = dataReader["phoneNo"].ToString()!;
+                    string email = dataReader["email"].ToString()!;
+                    Subject subject = (Subject)Enum.Parse(typeof(Subject), dataReader["subject"].ToString()!);
+                    int salary = Convert.ToInt32(dataReader["salary"]);
+                    Department department = (Department)Enum.Parse(typeof(Department), dataReader["department"].ToString()!);
 
-                Teacher teacher = new Teacher(name!, gender, address!, phoneNo!, email, subject, salary, department);
-                teacher.id = id.ToString();
-                return teacher;
+                    Teacher teacher = new Teacher(name!, gender, address!, phoneNo!, email, subject, salary, department);
+                    teacher.id = id.ToString();
+                    teachers.Add(teacher);
+                }
+                return teachers;
 
             }
             else return null;
@@ -252,28 +264,31 @@ namespace SchoolManagement
             else return null;
         }
         //overload 2
-        public Staff? getStaff(String name)
+        public List<Staff>? getStaff(String name)
         {
+            List<Staff> staffs = new List<Staff>();
             string query = $"select * from Staff where name = '{name}';";
             SqlCommand cmd = new SqlCommand(query, conn);
             conn.Open();
             SqlDataReader dataReader = cmd.ExecuteReader();
             if (dataReader.HasRows)
             {
-                dataReader.Read();
-                int id = Convert.ToInt32(dataReader["id"]);
-                Gender gender = (Gender)Enum.Parse(typeof(Gender), dataReader["gender"].ToString()!);
-                string address = dataReader["address"].ToString()!;
-                string phoneNo = dataReader["phoneNo"].ToString()!;
-                string email = dataReader["email"].ToString()!;
-                int salary = Convert.ToInt32(dataReader["salary"]);
-                Department department = (Department)Enum.Parse(typeof(Department), dataReader["department"].ToString()!);
-                Role role = (Role)Enum.Parse(typeof(Role), dataReader["role"].ToString()!);
+                while (dataReader.Read())
+                {
+                    int id = Convert.ToInt32(dataReader["id"]);
+                    Gender gender = (Gender)Enum.Parse(typeof(Gender), dataReader["gender"].ToString()!);
+                    string address = dataReader["address"].ToString()!;
+                    string phoneNo = dataReader["phoneNo"].ToString()!;
+                    string email = dataReader["email"].ToString()!;
+                    int salary = Convert.ToInt32(dataReader["salary"]);
+                    Department department = (Department)Enum.Parse(typeof(Department), dataReader["department"].ToString()!);
+                    Role role = (Role)Enum.Parse(typeof(Role), dataReader["role"].ToString()!);
 
-                Staff staff = new Staff(name!, gender, address!, phoneNo!, email, salary, department, role);
-                staff.id = id.ToString();
-                return staff;
-
+                    Staff staff = new Staff(name!, gender, address!, phoneNo!, email, salary, department, role);
+                    staff.id = id.ToString();
+                    staffs.Add(staff);
+                }
+                return staffs;
             }
             else return null;
         }
@@ -393,10 +408,20 @@ namespace SchoolManagement
         }
 
         //method to check if phone number is valid
-        public static void CheckValidPhNo(string number)
+        public static void IsValidPhNo(string number)
         {
-            if (number.Length != 10) throw new ValidationError("Phone number length should be 10 digits"); 
-            if(! number.All(char.IsDigit)) throw new ValidationError("Invalid Number");
+            if(number.Length != 10) throw new ValidationError($"Phone number length should be 10 digits"); 
+            if(!number.All(char.IsDigit)) throw new ValidationError("Invalid Number");
+        }
+
+        //method to check if email is valid
+        public static void IsValidEmail(string email)
+        {
+            string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+            if(!Regex.IsMatch(email, emailPattern))
+            {
+                throw new ValidationError("Invalid Email");
+            }
         }
     }
 

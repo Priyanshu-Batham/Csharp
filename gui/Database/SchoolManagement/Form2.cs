@@ -73,20 +73,21 @@ namespace SchoolManagement
                 if (comboBox1.Text == "") throw new ValidationError("Select a Gender");
                 Gender gender = (Gender)Enum.Parse(typeof(Gender), comboBox1.Text);
                 string address = textBox2.Text;
-                string phNo = textBox3.Text;
-                ValidationError.CheckValidPhNo(phNo);
+                string phNo = maskedTextBox1.Text;
+                ValidationError.IsValidPhNo(phNo);
                 if (comboBox2.Text == "") throw new ValidationError("Select a Course");
                 Course course = (Course)Enum.Parse(typeof(Course), comboBox2.Text);
                 if (comboBox3.Text == "") throw new ValidationError("Select a Semester");
                 Semester semester = (Semester)Enum.Parse(typeof(Semester), comboBox3.Text);
                 string email = textBox4.Text;
+                ValidationError.IsValidEmail(email);
 
                 if (name == "" || address == "" || phNo == "" || email == "") throw new ValidationError("Fill out all details");
 
 
                 Sql sql = new Sql();
-                sql.createStudent(new Student(name, gender, address, phNo, course, semester, email));
-                label9.Text = "Student Added Successfully";
+                int id = sql.createStudent(new Student(name, gender, address, phNo, course, semester, email));
+                label9.Text = $"Student Added Successfully with id: {id}";
             }
             catch (SqlException sqlEx)
             {
@@ -108,9 +109,10 @@ namespace SchoolManagement
                 if (comboBox6.Text == "") throw new ValidationError("Select a Gender");
                 Gender gender = (Gender)Enum.Parse(typeof(Gender), comboBox6.Text);
                 string address = textBox7.Text;
-                string phNo = textBox6.Text;
-                ValidationError.CheckValidPhNo(phNo);
+                string phNo = maskedTextBox2.Text;
+                ValidationError.IsValidPhNo(phNo);
                 string email = textBox5.Text;
+                ValidationError.IsValidEmail(email);
                 if (comboBox4.Text == "") throw new ValidationError("Select a Subject");
                 Subject subject = (Subject)Enum.Parse(typeof(Subject), comboBox4.Text);
                 int salary = Convert.ToInt32(textBox9.Text);
@@ -145,9 +147,10 @@ namespace SchoolManagement
                 if (comboBox9.Text == "") throw new ValidationError("Select a Gender");
                 Gender gender = (Gender)Enum.Parse(typeof(Gender), comboBox9.Text);
                 string address = textBox13.Text;
-                string phNo = textBox12.Text;
-                ValidationError.CheckValidPhNo(phNo);
+                string phNo = maskedTextBox3.Text;
+                ValidationError.IsValidPhNo(phNo);
                 string email = textBox11.Text;
+                ValidationError.IsValidEmail(email);
                 int salary = Convert.ToInt32(textBox10.Text);
                 if (comboBox7.Text == "") throw new ValidationError("Select a Department");
                 Department department = (Department)Enum.Parse(typeof(Department), comboBox7.Text);
@@ -201,25 +204,39 @@ namespace SchoolManagement
         //seach student by Name
         private void button5_Click(object sender, EventArgs e)
         {
+            //clearing the results initially
+            listBox34.Items.Clear();
+            listBox33.Items.Clear();
+            listBox32.Items.Clear();
+            listBox31.Items.Clear();
+            listBox30.Items.Clear();
+            listBox29.Items.Clear();
+            listBox28.Items.Clear();
+            listBox27.Items.Clear();
             try
             {
-                String name = textBox26.Text;
+                string name = textBox3.Text;
 
                 Sql sql = new Sql();
-                Student? student = sql.getStudent(name);
-                if (student == null) throw new ValidationError("No Student Found");
+                List<Student>? students = sql.getStudent(name);
 
-                textBox30.Text = student.id;
-                textBox25.Text = student.gender.ToString();
-                textBox29.Text = student.address;
-                textBox28.Text = student.phoneNo.ToString();
-                textBox24.Text = student.course.ToString();
-                textBox23.Text = student.semester.ToString();
-                textBox27.Text = student.email;
+                if (students == null) return;
+
+                foreach (Student student in students)
+                {
+                    listBox34.Items.Add(student.id!);
+                    listBox33.Items.Add(student.name);
+                    listBox32.Items.Add(student.gender.ToString());
+                    listBox31.Items.Add(student.address);
+                    listBox30.Items.Add(student.phoneNo.ToString());
+                    listBox29.Items.Add(student.course.ToString());
+                    listBox28.Items.Add(student.semester.ToString());
+                    listBox27.Items.Add(student.email);
+                }
             }
             catch (Exception ex)
             {
-                label41.Text = ex.Message;
+                //am not making any label for errors here since it will be fully under control
             }
         }
 
@@ -290,28 +307,44 @@ namespace SchoolManagement
         }
 
         //search teacher by name
-        private void button8_Click(object sender, EventArgs e)
+        private void button8_Click_1(object sender, EventArgs e)
         {
+            //clearing the results initially
+            listBox43.Items.Clear();
+            listBox42.Items.Clear();
+            listBox41.Items.Clear();
+            listBox40.Items.Clear();
+            listBox39.Items.Clear();
+            listBox36.Items.Clear();
+            listBox38.Items.Clear();
+            listBox37.Items.Clear();
+            listBox35.Items.Clear();
             try
             {
-                string name = textBox44.Text;
+                string name = textBox6.Text;
 
                 Sql sql = new Sql();
-                Teacher? teacher = sql.getTeacher(name);
-                if (teacher == null) throw new ValidationError("No Teacher Found");
+                List<Teacher>? teachers = sql.getTeacher(name);
 
-                textBox48.Text = teacher.id;
-                textBox43.Text = teacher.gender.ToString();
-                textBox47.Text = teacher.address;
-                textBox46.Text = teacher.phoneNo.ToString();
-                textBox42.Text = teacher.email;
-                textBox41.Text = teacher.subject.ToString();
-                textBox45.Text = teacher.salary.ToString();
-                textBox40.Text = teacher.department.ToString();
+                if (teachers == null) return;
+
+                foreach (Teacher teacher in teachers)
+                {
+                    listBox43.Items.Add(teacher.id!);
+                    listBox42.Items.Add(teacher.name);
+                    listBox41.Items.Add(teacher.gender.ToString());
+                    listBox40.Items.Add(teacher.address);
+                    listBox39.Items.Add(teacher.phoneNo.ToString());
+                    listBox36.Items.Add(teacher.email);
+                    listBox38.Items.Add(teacher.subject.ToString());
+                    listBox37.Items.Add(teacher.email);
+                    listBox35.Items.Add(teacher.department.ToString());
+
+                }
             }
             catch (Exception ex)
             {
-                label76.Text = ex.Message;
+                //am not making any label for errors here since it will be fully under control
             }
         }
 
@@ -384,28 +417,44 @@ namespace SchoolManagement
         }
 
         //search staff by Name
-        private void button11_Click(object sender, EventArgs e)
+        private void button11_Click_1(object sender, EventArgs e)
         {
+            //clearing the results initially
+            listBox52.Items.Clear();
+            listBox51.Items.Clear();
+            listBox50.Items.Clear();
+            listBox49.Items.Clear();
+            listBox48.Items.Clear();
+            listBox45.Items.Clear();
+            listBox47.Items.Clear();
+            listBox46.Items.Clear();
+            listBox44.Items.Clear();
             try
             {
-                string name = textBox62.Text;
+                string name = textBox12.Text;
 
                 Sql sql = new Sql();
-                Staff? staff = sql.getStaff(name);
-                if (staff == null) throw new ValidationError("No Staff Found");
+                List<Staff>? staffs = sql.getStaff(name);
 
-                textBox66.Text = staff.id;
-                textBox61.Text = staff.gender.ToString();
-                textBox65.Text = staff.address;
-                textBox64.Text = staff.phoneNo.ToString();
-                textBox60.Text = staff.email;
-                textBox63.Text = staff.salary.ToString();
-                textBox58.Text = staff.department.ToString();
-                textBox59.Text = staff.role.ToString();
+                if (staffs == null) return;
+
+                foreach (Staff staff in staffs)
+                {
+                    listBox52.Items.Add(staff.id!);
+                    listBox51.Items.Add(staff.name);
+                    listBox50.Items.Add(staff.gender.ToString());
+                    listBox49.Items.Add(staff.address);
+                    listBox48.Items.Add(staff.phoneNo.ToString());
+                    listBox45.Items.Add(staff.email);
+                    listBox47.Items.Add(staff.salary.ToString());
+                    listBox46.Items.Add(staff.department.ToString());
+                    listBox44.Items.Add(staff.role.ToString());
+
+                }
             }
             catch (Exception ex)
             {
-                label112.Text = ex.Message;
+                //am not making any label for errors here since it will be fully under control
             }
         }
 
