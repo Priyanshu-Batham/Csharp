@@ -1,0 +1,20 @@
+create database captcha;
+use captcha;
+
+create table captcha (
+	id int primary key identity(1, 1),
+	text nvarchar(10),
+	path nvarchar(100)
+);
+
+insert into captcha(text, path)
+values
+('TXGAP', 'images\image1.png'),
+('MLPSY', 'images\image2.png'),
+('NQCLA', 'images\image3.png')
+
+drop table captcha;
+
+select * from captcha;
+select Count(*) from captcha;
+
