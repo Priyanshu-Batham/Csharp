@@ -53,6 +53,9 @@ namespace Employee
 
             sql.CloseConnection();
             reader.Close();
+
+            button1.Enabled = true;
+            button2.Enabled = true;
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -74,6 +77,28 @@ namespace Employee
 
             sql.CloseConnection();
             reader.Close();
+        }
+
+        //update trigger
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(listBox1.Text);
+            string email = textBox2.Text;
+            string name = textBox3.Text;
+            string address = textBox4.Text;
+            string role = textBox5.Text;
+
+            Sql sql = new Sql();
+            sql.updateEmployee(id, email, name, address, role);
+            label6.Text = "Employee updated successfully";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(listBox1.Text);
+            Sql sql = new Sql();
+            sql.deleteEmployee(id);
+            label6.Text = "Employee deleted successfully";
         }
     }
 }

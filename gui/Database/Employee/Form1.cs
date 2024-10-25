@@ -78,6 +78,7 @@ namespace Employee
             return dataReader;
         }
 
+        //Read all
         public SqlDataReader getAllEmployee()
         {
             cmd = new SqlCommand($"select * from employee;", conn);
@@ -85,6 +86,26 @@ namespace Employee
             SqlDataReader dataReader = cmd.ExecuteReader();
             //conn.Close();
             return dataReader;
+        }
+
+        //update employee
+        public void updateEmployee(int id, string email, string name, string address, string role)
+        {
+            cmd = new SqlCommand($"update employee set email = '{email}', name = '{name}', address = '{address}', role = '{role}' where id = {id};", conn);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            cmd.Dispose();
+        }
+
+        //delete employee
+        public void deleteEmployee(int id)
+        {
+            cmd = new SqlCommand($"delete from employee where id = {id};", conn);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            cmd.Dispose();
         }
 
         public void CloseConnection() //This fun will be executed by function that uses this Sql class

@@ -41,6 +41,9 @@
             groupBox1 = new GroupBox();
             comboBox1 = new ComboBox();
             listBox1 = new ListBox();
+            button1 = new Button();
+            button2 = new Button();
+            label6 = new Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -161,11 +164,44 @@
             listBox1.TabIndex = 12;
             listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
+            // button1
+            // 
+            button1.Enabled = false;
+            button1.Location = new Point(310, 348);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 13;
+            button1.Text = "Update";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.Enabled = false;
+            button2.Location = new Point(409, 348);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 14;
+            button2.Text = "Delete";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(368, 396);
+            label6.Name = "label6";
+            label6.Size = new Size(0, 15);
+            label6.TabIndex = 15;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label6);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(listBox1);
             Controls.Add(comboBox1);
             Controls.Add(groupBox1);
@@ -175,6 +211,7 @@
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -192,5 +229,8 @@
         private GroupBox groupBox1;
         private ComboBox comboBox1;
         private ListBox listBox1;
+        private Button button1;
+        private Button button2;
+        private Label label6;
     }
 }
