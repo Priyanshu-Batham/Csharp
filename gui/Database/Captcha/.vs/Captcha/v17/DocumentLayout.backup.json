@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{CE1638C2-80A3-44EE-8A64-B2B1238F0A05}|Captcha.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE1638C2-80A3-44EE-8A64-B2B1238F0A05}|Captcha.csproj|e:\\1github\\c#\\gui\\database\\captcha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CE1638C2-80A3-44EE-8A64-B2B1238F0A05}|Captcha.csproj|E:\\1GITHUB\\C#\\gui\\Database\\Captcha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CE1638C2-80A3-44EE-8A64-B2B1238F0A05}|Captcha.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 904,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,10 +37,6 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
@@ -48,7 +44,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "E:\\1GITHUB\\C#\\gui\\Database\\Captcha\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwHkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T13:07:35.453Z",
               "EditorCaption": ""
@@ -62,8 +58,7 @@
               "ToolTip": "E:\\1GITHUB\\C#\\gui\\Database\\Captcha\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T13:07:21.449Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-24T13:07:21.449Z"
             }
           ]
         }
